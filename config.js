@@ -14,9 +14,9 @@ export default {
     width: 512,
   },
   cmdr: {
-    intro: 'From The XOs Office',
+    intro: 'From The Desk of SkyShadow',
     name: 'SkyShadow',
-    title: 'CPT SkyShadow on behalf of CPT Wreckage',
+    title: 'CPT SkyShadow',
     pin: 6958,
     email: 'SmTaUcM@GMail.com',
   },
