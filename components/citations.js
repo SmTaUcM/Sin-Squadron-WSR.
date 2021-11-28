@@ -18,11 +18,11 @@ export default function Citations({ citations, citationsChange, children }) {
       <p>The following are citations that we are very close to obtaining. Please make these your priority when completing single player battles.</p>
       <ul>
         <li>TIE-TC 3</li>
-        <li>TIE-TC 7</li>
+        <li>TIE-TC 6</li>
         <li>TIE-TC 25</li>
-        <li>XVT-TC 4</li>
-		<li>XVT-TC 23</li>
-		<li>XVT-TC 77</li>
+        <li>XVT-TC 1</li>
+		<li>XVT-TC 10</li>
+		<li>XVT-TC 31</li>
 		<li>XWA-TC 3</li>
 		<li>XWA-TC 4</li>
 		<li>XWA-TC 6</li>
