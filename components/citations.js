@@ -20,12 +20,12 @@ export default function Citations({ citations, citationsChange, children }) {
         <li>TIE-TC 3</li>
         <li>TIE-TC 6</li>
         <li>TIE-TC 25</li>
-        <li>XVT-TC 1</li>
-		<li>XVT-TC 10</li>
-		<li>XVT-TC 31</li>
+		<li>XVT-TC 1</li>
+        <li>XVT-TC 14</li>
+		<li>XVT-TC 70</li>
+		<li>XWA-TC 1</li>
+		<li>XWA-TC 2</li>
 		<li>XWA-TC 3</li>
-		<li>XWA-TC 4</li>
-		<li>XWA-TC 6</li>
       </ul>
       { children }
 
