@@ -16,15 +16,15 @@ import Link from '../../components/link';
 import config from '../../config';
 import loadActivityData from '../../src/loadSquadronActivityData';
 
-const reportNumber = 23;
-const startDate = '2021-12-06';
-const endDate = '2021-12-12';
-const submissionDate = '2021-12-12';
+const reportNumber = 24;
+const startDate = '2021-12-13';
+const endDate = '2021-12-19';
+const submissionDate = '2021-12-19';
 
 const citations = [
 
 ];
-const citationsChange ='+0';
+const citationsChange ='_____TODO_____';
 
 // These don't seem to change anything. Use: citations.js 
 const orders = [
@@ -93,8 +93,8 @@ const ACTIVITY = {
   // SkyShadow
   6958: {
     communication: 'Discord, E-Mail',
-    flightActivity: 'Star Conflict PvE, Battlefront PvP',
-    otherActivity: 'IOA Duties, Trivia Grand Tour, Challenge with Words! Crossword Challenge',
+    flightActivity: 'Star Conflict PvE',
+    otherActivity: 'IOA Duties, Trivia Grand Tour',
     notes: '',
   },
   
@@ -108,7 +108,7 @@ const ACTIVITY = {
   
   // Kazraran
   56002: {
-    communication: 'Discord',
+    communication: '',
     flightActivity: '',
     otherActivity: '',
     notes: '',
@@ -124,15 +124,15 @@ const ACTIVITY = {
   
   // Robert Hogan
   55859: {
-    communication: 'E-Mail',
-    flightActivity: 'Battlefront PvP',
-    otherActivity: 'Trivia Grand Tour',
+    communication: '',
+    flightActivity: '',
+    otherActivity: '',
     notes: '',
   },
 
   // Kane Polybius
   56085: {
-    communication: 'Discord',
+    communication: '',
     flightActivity: '',
     otherActivity: '',
     notes: '',
@@ -140,15 +140,15 @@ const ACTIVITY = {
   
   // AnArKey223
   56157: {
-    communication: 'Discord',
-    flightActivity: 'Squadrons PvP',
+    communication: '',
+    flightActivity: '',
     otherActivity: '',
     notes: '',
   },
   
  // Wreckage
   55962: {
-    communication: 'Discord',
+    communication: '',
     flightActivity: '',
     otherActivity: '',
     notes: '',
@@ -164,16 +164,16 @@ const ACTIVITY = {
   
     // Calvin Phrick
   55839: {
-    communication: 'Discord',
-    flightActivity: 'Squadrons PvP',
+    communication: '',
+    flightActivity: '',
     otherActivity: '',
-    notes: 'Great activity this week!',
+    notes: '',
   },
 
   // Exar Kit
   5243: {
     communication: '',
-    flightActivity: 'Battlefront PvP, Star Conflict PvP & PvE',
+    flightActivity: '',
     otherActivity: '',
     notes: '',
   },
@@ -210,9 +210,7 @@ export default function Report({ activityData }) {
 	  
         <center><h4><span style={{ color: "#1F51FF" }}>Squadron Commander's Speech</span></h4></center>
 		
-        <p>Greetings Pilots! Another week has completely flown by as we rapidly approach the holiday season. </p>
-		<p>This week, it’s with great pleasure that I get to announce the promotion of SL AnArKey223 to full Lieutenant. Congratulations! We shall watch you career with great interest! </p>
-		<p>November’s MSE merit medals have been approved and awarded. Congratulations to all who received a merit medal this month. </p>
+        <p>_____TODO_____</p>
 
       </Intro>
 
@@ -220,12 +218,11 @@ export default function Report({ activityData }) {
 
                 <center><h3><span style={{ color: "#1F51FF" }}>Squadron News</span></h3></center>
         <ul>
-				<li>SL AnArKey223 has been promoted to full Lieutenant. Congratulations! </li><br></br>
-				<li>MSE merit medals for November have been awarded. Congratulations to all who medalled.</li><br></br>
+				<li>_____TODO_____</li><br></br>
         </ul>
                 <center><h3><span style={{ color: "#1F51FF" }}>Fleet News</span></h3></center>
         <ul>
-                <li>The COO's Saturday Star Wars Shootouts combat event continues to gain momentum. If you have some spare time on a Saturday, why not join in?</li><br></br>
+                <li>_____TODO_____</li><br></br>
         </ul>
 
       </Orders>
@@ -243,13 +240,11 @@ export default function Report({ activityData }) {
 
       <Closing>
 	  
-		<p>It’s been a quieter week around the fleet this week, no doubt due to the rapidly approaching holidays and ‘silly season’ for many on the work front. </p>
-		<p>It’s been great to see many of our pilots flying again scoring a variety of PvE and PvP medals. </p>
-		<p>A polite reminder to all, that when flying with other pilots in the TIE Corps, please reach out and communicate with them to establish who will be submitting screenshots and reporting the mission. This will prevent any possible duplicate submissions and the issuing of the incorrect amount of LoCs/LoSs. </p>
-		<p>Finally, with the holidays just around the corner, please don’t forget to communicate regularly and be active. There’s plenty of competitions and flying to participate in, some only taking a handful of minutes to complete. Since RtF finished the sqn has been uncharacteristically quiet, and to that end I’m hoping to introduce a second squadron training night each month, available for all to participate in and enjoy some gaming with your fellow squad mates. I’m hoping to start this in the new year. </p>
+		<p>_____TODO_____</p>
 		<p>For Sin! </p>
 		<p>CPT SkyShadow </p>
 
+	  
       <i><span style={{ color: "#bb0a1e" }}>"The old ones say we Sinners are descended from the Emperor himself. From the time a Sinner could fly, they were baptized in the fire of combat. 
         Taught never to retreat, never to surrender. Taught that death on the battlefield in service to the Empire was the greatest glory they could achieve."</span></i>
 		

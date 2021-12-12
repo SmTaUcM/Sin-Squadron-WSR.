@@ -1,6 +1,6 @@
 export default {
   reportTitleFormat: (number) => `The Chronicles of Sin #${number}`,
-  ship: 'ISD-II Warrior',
+  ship: 'ISDII Warrior',
   squadron: 'Sin',
   squadronId: '64',
   squadronPatch: {
