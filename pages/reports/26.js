@@ -16,10 +16,10 @@ import Link from '../../components/link';
 import config from '../../config';
 import loadActivityData from '../../src/loadSquadronActivityData';
 
-const reportNumber = 25;
-const startDate = '2021-12-20';
-const endDate = '2021-12-26';
-const submissionDate = '2021-12-27';
+const reportNumber = 26;
+const startDate = '2021-12-27';
+const endDate = '2021-01-02';
+const submissionDate = '2021-01-03';
 
 const citations = [
   'XvT-TC 14',
@@ -27,7 +27,7 @@ const citations = [
   'XWA-TC 1',
   'XWA-TC 2', 
 ];
-const citationsChange ='+0';
+const citationsChange ='_____TODO_____';
 
 // These don't seem to change anything. Use: citations.js 
 const orders = [
@@ -44,24 +44,8 @@ const competitions = [
 }, 
 
 {
-  id: '3348',
-  name: 'There and Back Again: A COMPOST Tale',
-  ends: '2021-12-29',
-  units: 'Entire TC',
-  notes: 'Fly TIE-TC 244, Lord of the TIEs, and reach for the highest score you can get.',
-}, 
-
-{
-  id: '3235',
-  name: 'COO\'s Star Wars Challenge Episode VII - 2021',
-  ends: '2021-12-31',
-  units: 'Entire TC',
-  notes: 'Accumulate the most LoCs or LoSs in Squadrons.',
-}, 
-
-{
   id: '3275',
-  name: 'MP Ace of the TIE Corps 2021',
+  name: 'MP Ace of the TIE Corps 2021_____TODO_____',
   ends: '2021-12-31',
   units: 'Entire TC',
   notes: 'Pilots earn monthly and yearly medals for the most LoCs earned. Squadrons games not eligible.',
@@ -69,7 +53,7 @@ const competitions = [
 
 {
   id: '3276',
-  name: 'COOP Ace of the TIE Corps 2021',
+  name: 'COOP Ace of the TIE Corps 2021_____TODO_____',
   ends: '2021-12-31',
   units: 'Entire TC',
   notes: 'Pilots earn monthly and yearly medals for the most LoSs earned.',
@@ -77,7 +61,7 @@ const competitions = [
 
 {
   id: '3240',
-  name: 'SP Ace of the TIE Corps 2021',
+  name: 'SP Ace of the TIE Corps 2021_____TODO_____',
   ends: '2021-12-31',
   units: 'Entire TC',
   notes: 'Pilots earn monthly and yearly medals for the most single player missions played.',
@@ -97,8 +81,8 @@ const ACTIVITY = {
   // SkyShadow
   6958: {
     communication: 'Discord',
-    flightActivity: 'Star Conflict PvE & PvP',
-    otherActivity: 'IOA Duties, Trivia Grand Tour',
+    flightActivity: '',
+    otherActivity: 'IOA Duties',
     notes: '',
   },
   
@@ -113,8 +97,8 @@ const ACTIVITY = {
   // Kazraran
   56002: {
     communication: '',
-    flightActivity: 'Star Conflict PvE',
-    otherActivity: 'Trivia Grand Tour',
+    flightActivity: '',
+    otherActivity: '',
     notes: '',
   },
 
@@ -128,9 +112,9 @@ const ACTIVITY = {
   
   // Robert Hogan
   55859: {
-    communication: 'Discord',
+    communication: '',
     flightActivity: '',
-    otherActivity: 'Trivia Grand Tour',
+    otherActivity: '',
     notes: '',
   },
 
@@ -145,22 +129,22 @@ const ACTIVITY = {
   // AnArKey223
   56157: {
     communication: '',
-    flightActivity: 'Squadrons PvP',
+    flightActivity: '',
     otherActivity: '',
     notes: '',
   },
   
  // Wreckage
   55962: {
-    communication: 'Discord',
+    communication: '',
     flightActivity: '',
-    otherActivity: 'Trivia Grand Tour',
+    otherActivity: '',
     notes: '',
   },
 
   // AlexanderK9
   56110: {
-    communication: 'Discord',
+    communication: '',
     flightActivity: '',
     otherActivity: '',
     notes: '',
@@ -168,7 +152,7 @@ const ACTIVITY = {
 
   // Exar Kit
   5243: {
-    communication: 'Discord',
+    communication: '',
     flightActivity: '',
     otherActivity: '',
     notes: '',
@@ -206,9 +190,7 @@ export default function Report({ activityData }) {
 	  
         <center><h4><span style={{ color: "#1F51FF" }}>Squadron Commander's Speech</span></h4></center>
 		
-		<p>Greetings pilots! It’s been a quiet week in the squadron ready room this week, and rightly so with the holiday season upon us and winter festivities to be had. I hope that you all had a fantastic holiday and that you’ve been able to spend it with those closest to you. </p>
-		<p>This week has seen the conclusion of Trivia Grand Tour Season Seven, and many of the other fleet-wide competitions will be drawing to a close in the days to come, so if you want to make any last-minute entries, then now is the time. </p>
-		<p>Announcements for the 2022 fleet-wide competitions will no doubt follow in the days to come. </p>
+		<p>_____TODO_____</p>
 
       </Intro>
 
@@ -216,18 +198,12 @@ export default function Report({ activityData }) {
 
                 <center><h3><span style={{ color: "#1F51FF" }}>Squadron News</span></h3></center>
         <ul>
-				<li>With the end of the month just around the corner, please don’t forget to get any last minute flying or competitions in.</li><br></br>
+				<li>_____TODO_____</li><br></br>
         </ul>
                 <center><h3><span style={{ color: "#1F51FF" }}>Fleet News</span></h3></center>
         <ul>
-                <li>After 21 weeks with five questions each, we’ve arrived at the end of Trivia Grand Tour Season Seven! Congratulations go to our top 4 winners: 
-				<br></br><br></br>GN Pickled Yoda - IS-PR
-				<br></br>GN Coranel Both - IS-GR
-				<br></br>CM Westric Davalorn - IS-SR
-				<br></br>LC Aardvark – IS-BR
-				</li><br></br>
+                <li>_____TODO_____</li><br></br>
 				
-				<li>With the end of the year just around the corner there is all to play for in the Ace of the TIE Corps competitions, especially in the CO-Op and Multiplayer categories. </li><br></br>
         </ul>
 
       </Orders>
@@ -245,8 +221,7 @@ export default function Report({ activityData }) {
 
       <Closing>
 	  
-		<p>This is my last report for the year! And with that I would like to take the opportunity to with you all the happiest of new years! </p>
-		<p>It’s been an absolute pleasure flying with you all over the last 12 months and a privilege to be your Commander, I look forward to what 2022 will bring. </p>
+		<p>_____TODO_____</p>
 		<p>For Sin! </p>
 		<p>CPT SkyShadow </p>
 
