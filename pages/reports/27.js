@@ -16,10 +16,10 @@ import Link from '../../components/link';
 import config from '../../config';
 import loadActivityData from '../../src/loadSquadronActivityData';
 
-const reportNumber = 26;
-const startDate = '2021-12-27';
-const endDate = '2022-01-02';
-const submissionDate = '2022-01-03';
+const reportNumber = 27;
+const startDate = '2022-01-03';
+const endDate = '2022-01-09';
+const submissionDate = '2022-01-10';
 
 const citations = [
   'XvT-TC 14',
@@ -27,7 +27,7 @@ const citations = [
   'XWA-TC 1',
   'XWA-TC 2', 
 ];
-const citationsChange ='+0';
+const citationsChange ='_____TODO_____';
 
 // These don't seem to change anything. Use: citations.js 
 const orders = [
@@ -114,7 +114,7 @@ const ACTIVITY = {
   6958: {
     communication: 'Discord, E-Mail',
     flightActivity: 'Star Conflict PvP',
-    otherActivity: 'IOA Duties, Challenge with Words!, Crossword Challenge',
+    otherActivity: 'IOA Duties',
     notes: '',
   },
   
@@ -128,7 +128,7 @@ const ACTIVITY = {
   
   // Kazraran
   56002: {
-    communication: 'Discord',
+    communication: '',
     flightActivity: '',
     otherActivity: '',
     notes: '',
@@ -136,10 +136,10 @@ const ACTIVITY = {
 
   // Earnim Branet
   11276: {
-    communication: 'E-Mail',
+    communication: '',
     flightActivity: '',
 	otherActivity: '',
-    notes: 'Thanks for the E-Mail update. Hope your PC is up and running soon!',
+    notes: '',
   },
   
   // Robert Hogan
@@ -161,15 +161,15 @@ const ACTIVITY = {
   // AnArKey223
   56157: {
     communication: '',
-    flightActivity: 'Squadrons PvP',
+    flightActivity: '',
     otherActivity: '',
     notes: '',
   },
   
  // Wreckage
   55962: {
-    communication: 'Discord',
-    flightActivity: 'Star Conflict PvE',
+    communication: '',
+    flightActivity: '',
     otherActivity: '',
     notes: '',
   },
@@ -177,15 +177,15 @@ const ACTIVITY = {
   // AlexanderK9
   56110: {
     communication: '',
-    flightActivity: 'Battlefront PvP & PvE',
+    flightActivity: '',
     otherActivity: '',
     notes: '',
   },
 
   // Exar Kit
   5243: {
-    communication: 'Discord',
-    flightActivity: 'Battlefront PvP',
+    communication: '',
+    flightActivity: '',
     otherActivity: '',
     notes: '',
   },
@@ -222,9 +222,7 @@ export default function Report({ activityData }) {
 	  
         <center><h4><span style={{ color: "#1F51FF" }}>Squadron Commander's Speech</span></h4></center>
 		
-		<p>Greetings pilots! And a happy new year to you all! After what has been a pretty relaxing few weeks over the holiday season, the fleet has been a hive of activity which has seen the creative juices flow and a host of new competitions release. </p>
-		<p>With a fresh year comes a fresh start. The Ace of the TIE Corps completions have been reset for 2022 and all is to play for. I look forward to seeing an uptick in flying activity. If you’re unable to fly then there’s a fantastic choice of other competitions to get involved in. Hopefully we’ll see some excellent representation from Sin squadron. </p>
-		<p>December’s round of MSE reports has been finalised by myself and are awaiting comments. Be on the lookout for those shineys! </p>
+		<p>_____TODO_____</p>
 
       </Intro>
 
@@ -232,15 +230,11 @@ export default function Report({ activityData }) {
 
                 <center><h3><span style={{ color: "#1F51FF" }}>Squadron News</span></h3></center>
         <ul>
-				<li>I hope that you all had a happy new year! A quiet week in general, but it’s been great to see some end of the month flying.</li><br></br>
-				<li>December’s MSE recommendations have been submitted and should be approved in the days to come. </li><br></br>
+				<li>_____TODO_____</li><br></br>
         </ul>
                 <center><h3><span style={{ color: "#1F51FF" }}>Fleet News</span></h3></center>
         <ul>
-                <li>The 2022 season of SP/MP/COOP Ace of the TIE Corps has begun! See the Competitions section for more details.</li><br></br>
-				<li>New seasons for the Crossword Challenge and The Challenge with Words! Have also been released along with a new fleet-wide jigsaw competition. Please see the Competitions section for details. </li><br></br>
-				<li>A new Squadrons competition has launched where you have to shoot down CPT LegionX in the fastest time. See the competitions section for details. </li><br></br>
-				
+                <li>_____TODO_____</li><br></br>
         </ul>
 
       </Orders>
@@ -258,10 +252,10 @@ export default function Report({ activityData }) {
 
       <Closing>
 	  
-		<p>My door is always open to all of you. If you need any help, guidance or just direction for some activities then please don’t hesitate to contact me on Discord of by email. If you’re online and gaming, drop in to one of our voice channels for visibility. You never know you might end up flying with some fellow Sinners or other members of the Corps. </p>
+		<p>_____TODO_____</p>
 		<p>For Sin! </p>
 		<p>CPT SkyShadow </p>
-	  
+
       <i><span style={{ color: "#bb0a1e" }}>"The old ones say we Sinners are descended from the Emperor himself. From the time a Sinner could fly, they were baptized in the fire of combat. 
         Taught never to retreat, never to surrender. Taught that death on the battlefield in service to the Empire was the greatest glory they could achieve."</span></i>
 		
