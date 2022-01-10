@@ -16,10 +16,10 @@ import Link from '../../components/link';
 import config from '../../config';
 import loadActivityData from '../../src/loadSquadronActivityData';
 
-const reportNumber = 27;
-const startDate = '2022-01-03';
-const endDate = '2022-01-09';
-const submissionDate = '2022-01-10';
+const reportNumber = 28;
+const startDate = '2022-01-10';
+const endDate = '2022-01-15';
+const submissionDate = '2022-01-16';
 
 const citations = [
   'XvT-TC 14',
@@ -27,7 +27,7 @@ const citations = [
   'XWA-TC 1',
   'XWA-TC 2', 
 ];
-const citationsChange ='+0';
+const citationsChange ='_____TODO_____';
 
 // These don't seem to change anything. Use: citations.js 
 const orders = [
@@ -129,8 +129,8 @@ const combatEvents = [
 const ACTIVITY = {
   // SkyShadow
   6958: {
-    communication: 'Discord, E-Mail',
-    flightActivity: 'Star Conflict PvP & PvE, Battlefront 2 PvP, Squadrons PvP',
+    communication: 'Discord',
+    flightActivity: '',
     otherActivity: 'IOA Duties',
     notes: '',
   },
@@ -145,8 +145,8 @@ const ACTIVITY = {
   
   // Kazraran
   56002: {
-    communication: 'Discord',
-    flightActivity: 'Star Conflict PvE',
+    communication: '',
+    flightActivity: '',
     otherActivity: '',
     notes: '',
   },
@@ -154,14 +154,14 @@ const ACTIVITY = {
   // Earnim Branet
   11276: {
     communication: '',
-    flightActivity: 'Star Conflict PvE',
+    flightActivity: '',
 	otherActivity: '',
     notes: '',
   },
   
   // Robert Hogan
   55859: {
-    communication: 'Discord',
+    communication: '',
     flightActivity: '',
     otherActivity: '',
     notes: '',
@@ -169,24 +169,24 @@ const ACTIVITY = {
 
   // Kane Polybius
   56085: {
-    communication: 'Discord',
+    communication: '',
     flightActivity: '',
-    otherActivity: 'x2 Fiction submissions',
-    notes: 'Nice work on the fiction!',
+    otherActivity: '',
+    notes: '',
   },
   
   // AnArKey223
   56157: {
-    communication: 'Discord',
-    flightActivity: 'Squadrons PvP',
+    communication: '',
+    flightActivity: '',
     otherActivity: '',
     notes: '',
   },
   
  // Wreckage
   55962: {
-    communication: 'Discord',
-    flightActivity: 'Star Conflict PvE',
+    communication: '',
+    flightActivity: '',
     otherActivity: '',
     notes: '',
   },
@@ -194,15 +194,15 @@ const ACTIVITY = {
   // AlexanderK9
   56110: {
     communication: '',
-    flightActivity: 'Star Conflict PvP & PvE',
+    flightActivity: '',
     otherActivity: '',
     notes: '',
   },
 
   // Exar Kit
   5243: {
-    communication: 'Discord',
-    flightActivity: 'Battlefront 2 PvP, Star Conflict PvE',
+    communication: '',
+    flightActivity: '',
     otherActivity: '',
     notes: '',
   },
@@ -239,10 +239,7 @@ export default function Report({ activityData }) {
 	  
         <center><h4><span style={{ color: "#1F51FF" }}>Squadron Commander's Speech</span></h4></center>
 		
-		<p>Greetings pilots! This week it's been raining stars! Iron Stars to be exact, and Platinum ones to! The first week of 2022 saw Sin Squadron take home two of the three Ace of the TIE Corps titles. A massive congratulations to all who took part. And a very well done to MAJ Robert Hogan and MAJ Wreckage! Sin Squadron also placed very strongly in December in MP and COOP; I couldn’t be prouder of you all. </p>
-		<p>With the new year now in full swing, I’m pleased to announce the start of TIE Corps in Battle Season 4 for those Single Player pilots out there, as well as the start of The Chalquilla Cup II (Beer League), where team sign-ups have commenced, ready for the competition to start in February. Please find more details below. </p>
-		<p>January’s Sinfantry Training also took place on Saturday with a good turnout then then ran into the Saturday Star Wars Shootouts. Thank you to all who attended. </p>
-		<p>Finally, Decembers MSE run has now been completed. Congratulations to all who earned a medal for December’s activities. </p>
+		<p>_____TODO_____</p>
 
 
       </Intro>
@@ -251,39 +248,14 @@ export default function Report({ activityData }) {
 
                 <center><h3><span style={{ color: "#1F51FF" }}>Squadron News</span></h3></center>
         <ul>
-				<li>Multiplayer & CO-OP Ace of the TIE Corps 2021 titles have been awarded to MAJ Robert Hogan and myself. MAJ Wreckage also placed 2nd in Multiplayer and 4th in CO-OP. A huge congrats to all who have flown in these competitions over the last year. It's been brilliant to see such a great turn out from Sin Squadron.</li><br></br>
-				
-				<li>Between MP & CO-OP in December, Sin Squadron took one quarter of all the places. Congrats to MAJ Robert Hogan and GN Exar Kit</li><br></br>
-				
-				<li>MSE medals have been recommended and now awarded! Congratulations to all those who medalled for the month of December.</li><br></br>
-				
-				<li>Sinfantry training took place on Saturday, thanks to all who turned up and for those who sent apologies. It was a fun night where we managed to play some Star Conflict, Squadrons and Battlefront II. My training was sadly cut short for me with a grumpy graphics card and some TTT3 bug hunting.</li><br></br>
+				<li>_____TODO_____</li><br></br>
         </ul>
 		
                 <center><h3><span style={{ color: "#1F51FF" }}>Fleet News</span></h3></center>
         <ul>
-                <li><b>The Chalquilla Cup II (Beer League) has been announced:</b>
-					<br></br><br></br>
-					A 3v3 Fleet Battles "beer league" for the whole TC will take place starting February 1st.
-					<br></br><br></br>
-					3-person teams (with up to 3 additional subs) from each squadron will sign up by January 20 and take part in 3v3 fleet battles in Star Wars Squadrons. Each team will be made of a single squadron along with Admiralty, reserves, and teamless pilots as wildcards. All teams will fight each other in two matches.
-					<br></br><br></br>
-					Team signup: <a href="https://forms.gle/GdzQjxXHJB5VUCaV8">Here</a>
-					<br></br><br></br>
-					Full rules: <a href="https://docs.google.com/document/d/1FwdV_nVRBAuM7FKp3YQst5aIQQ3R7_aATbfUrmwHbSE/edit?usp=sharing">Here</a>
-					<br></br><br></br>
-					See #chalquilla-cup for discussion.
-					<br></br><br></br>
-					Firebird won the CC last year! This year... will it be us?
-					<br></br><br></br>
-					I'm looking for a volunteer to act as team captain for this event, anyone interested please get in touch.
-				</li><br></br>
+                <li>_____TODO_____</li><br></br>
 				
-				<li><b>TIE Corps in Battle Season 4 has been announced!</b> 
-					<br></br><br></br>
-					TCiB is a competiton for SP pilots who aim to get the highest score possible in TIE, XvT and/or XWA. For more details, please see the Competitions section.
-					<br></br><br></br>
-					<b>Assignments for January:</b>
+				<li><b>TIE Corps in Battle Season 4 Assignments for January:</b> 
 					<br></br><br></br>
 					+ <a href="https://tc.emperorshammer.org/download.php?id=471&type=info"> TIE-TC 165: The Hunt for Zsinj </a>
 					<br></br><br></br>
@@ -308,7 +280,7 @@ export default function Report({ activityData }) {
 
       <Closing>
 	  
-		<p>A big thank you to you all for the activity this week! </p>
+		<p>_____TODO_____</p>
 		<p>My door is always open to all of you. If you need any help, guidance or just direction for some activities then please don’t hesitate to contact me on Discord of by email. If you’re online and gaming, drop in to one of our voice channels for visibility. You never know you might end up flying with some fellow Sinners or other members of the Corps.</p>
 		<p>For Sin! </p>
 		<p>CPT SkyShadow </p>
