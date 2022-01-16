@@ -16,10 +16,10 @@ import Link from '../../components/link';
 import config from '../../config';
 import loadActivityData from '../../src/loadSquadronActivityData';
 
-const reportNumber = 28;
-const startDate = '2022-01-10';
-const endDate = '2022-01-15';
-const submissionDate = '2022-01-16';
+const reportNumber = 29;
+const startDate = '2022-01-16';
+const endDate = '2022-01-22';
+const submissionDate = '2022-01-23';
 
 const citations = [
   'XvT-TC 14',
@@ -27,7 +27,7 @@ const citations = [
   'XWA-TC 1',
   'XWA-TC 2', 
 ];
-const citationsChange ='+0';
+const citationsChange ='_____TODO_____';
 
 // These don't seem to change anything. Use: citations.js 
 const orders = [
@@ -130,7 +130,7 @@ const ACTIVITY = {
   // SkyShadow
   6958: {
     communication: 'Discord',
-    flightActivity: 'TIE, XvT, XWA',
+    flightActivity: '',
     otherActivity: 'IOA Duties',
     notes: '',
   },
@@ -161,7 +161,7 @@ const ACTIVITY = {
   
   // Robert Hogan
   55859: {
-    communication: 'E-Mail, Discord',
+    communication: '',
     flightActivity: '',
     otherActivity: '',
     notes: '',
@@ -169,15 +169,15 @@ const ACTIVITY = {
 
   // Kane Polybius
   56085: {
-    communication: 'Discord',
+    communication: '',
     flightActivity: '',
-    otherActivity: '1x Fiction "Wandering Aim"',
+    otherActivity: '',
     notes: '',
   },
   
   // AnArKey223
   56157: {
-    communication: 'Discord',
+    communication: '',
     flightActivity: '',
     otherActivity: '',
     notes: '',
@@ -185,7 +185,7 @@ const ACTIVITY = {
   
  // Wreckage
   55962: {
-    communication: 'Discord',
+    communication: '',
     flightActivity: '',
     otherActivity: '',
     notes: '',
@@ -239,10 +239,7 @@ export default function Report({ activityData }) {
 	  
         <center><h4><span style={{ color: "#1F51FF" }}>Squadron Commander's Speech</span></h4></center>
 		
-		<p>Greetings pilots! Welcome to a slightly earlier report than normal as I make a bid to realign the reports back to a Sunday release (I somehow ended up doing the reports on a Monday during the holidays). All in all, it’s been a quieter week as we get back into the swing of things with the new year however, it’s been great to see an upturn in activity with various flying and fiction activities being completed. </p>
-		<p>We are putting forward a team for the Chalquilla Cup II Beer League under the name “Sintoxicated” and are actively looking for two more team members. If you’re interested, then please drop me a message. </p>
-		<p>There is currently a huge range of competitions to get involved with, please see the competitions section below for some of the ways you can get involved and participate with fleet activities. </p>
-
+		<p>_____TODO_____</p>
 
 
       </Intro>
@@ -251,11 +248,13 @@ export default function Report({ activityData }) {
 
                 <center><h3><span style={{ color: "#1F51FF" }}>Squadron News</span></h3></center>
         <ul>
-				<li>The book is still open for members to join Sin Squadron’s Chalquilla Cup II team “Sintoxicated”. Currently the team stands at Myself, MAJ Robert Hogan, MAJ Wreckage and SA Kamjin Maverick Lap'lamiz. If you are interested in joining the team, please contact me before Thursday the 20th of Jan.</li><br></br>
+				<li>_____TODO_____</li><br></br>
         </ul>
 		
                 <center><h3><span style={{ color: "#1F51FF" }}>Fleet News</span></h3></center>
         <ul>
+				<li>_____TODO_____</li><br></br>
+		
                 <li><b>TIE Corps in Battle Season 4 Assignments for January:</b> 
 					<br></br><br></br>
 					+ <a href="https://tc.emperorshammer.org/download.php?id=471&type=info"> TIE-TC 165: The Hunt for Zsinj </a>
@@ -281,7 +280,8 @@ export default function Report({ activityData }) {
 
       <Closing>
 	  
-		<p>It’s been great to see the upturn in activity this week. Please keep it coming! </p>
+		<p>_____TODO_____</p>
+		
 		<p>My door is always open to all of you. If you need any help, guidance or just direction for some activities then please don’t hesitate to contact me on Discord of by email. If you’re online and gaming, drop in to one of our voice channels for visibility. You never know you might end up flying with some fellow Sinners or other members of the Corps.</p>
 		<p>For Sin! </p>
 		<p>CPT SkyShadow </p>
