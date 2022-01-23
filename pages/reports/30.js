@@ -16,10 +16,10 @@ import Link from '../../components/link';
 import config from '../../config';
 import loadActivityData from '../../src/loadSquadronActivityData';
 
-const reportNumber = 29;
-const startDate = '2022-01-16';
-const endDate = '2022-01-22';
-const submissionDate = '2022-01-23';
+const reportNumber = 30;
+const startDate = '2022-01-23';
+const endDate = '2022-01-29';
+const submissionDate = '2022-01-30';
 
 const citations = [
   'XvT-TC 14',
@@ -27,7 +27,7 @@ const citations = [
   'XWA-TC 1',
   'XWA-TC 2', 
 ];
-const citationsChange ='+0';
+const citationsChange ='_____TODO_____';
 
 // These don't seem to change anything. Use: citations.js 
 const orders = [
@@ -101,14 +101,6 @@ const competitions = [
 },
 
 {
-  id: '3353',
-  name: 'Legion\'s Challenging Time Trials Season 2',
-  ends: '2022-01-30',
-  units: 'Entire TC',
-  notes: 'The goal of this competition is to kill CPT LegionX in a 1v1 "Dogfight" as quickly as you can in Star Wars Squadrons.',
-},
-
-{
   id: '3352',
   name: 'TIE Corps Jigsaw Puzzle Extravaganza 2022',
   ends: '2022-04-30',
@@ -124,20 +116,13 @@ const combatEvents = [
   ends: '2022-06-05',
   notes: 'Online PvP every Saturday at 6pm EST (11pm UTC). A member of the Combat Operations Office organize one or more groups. The game played will be determined by the pilots online. Ten games played will earn you an IS-CW.',
 }, 
-
-{
-  id: '172',
-  name: 'Week of War V: Squadrons January 2021 (BattleStats)',
-  ends: '2022-01-30',
-  notes: 'Clubs will play each other in 1v1 through 5v5 dogfights in Star Wars Squadrons. All pilots are encouraged to play, whether casual or competitive!',
-} 
 ];
 
 const ACTIVITY = {
   // SkyShadow
   6958: {
     communication: 'Discord',
-    flightActivity: 'Squadrons PvP, Star Conflict PvP & PvE',
+    flightActivity: '',
     otherActivity: 'IOA Duties',
     notes: '',
   },
@@ -145,7 +130,7 @@ const ACTIVITY = {
   // Kazraran
   56002: {
     communication: '',
-    flightActivity: 'Star Conflict PvE',
+    flightActivity: '',
     otherActivity: '',
     notes: '',
   },
@@ -153,15 +138,15 @@ const ACTIVITY = {
   // Earnim Branet
   11276: {
     communication: '',
-    flightActivity: 'Star Conflict PvE',
+    flightActivity: '',
 	otherActivity: '',
     notes: '',
   },
   
   // Robert Hogan
   55859: {
-    communication: 'E-Mail, Discord',
-    flightActivity: 'Squadrons PvP, Battlefront PvP',
+    communication: '',
+    flightActivity: '',
     otherActivity: '',
     notes: '',
   },
@@ -170,21 +155,21 @@ const ACTIVITY = {
   56085: {
     communication: 'Discord',
     flightActivity: '',
-    otherActivity: 'x5 Fictions written',
-    notes: 'Amazing work with your fictions!',
+    otherActivity: '',
+    notes: '',
   },
   
   // AnArKey223
   56157: {
-    communication: 'Discord',
-    flightActivity: 'Squadrons PvP',
+    communication: '',
+    flightActivity: '',
     otherActivity: '',
-    notes: 'Congrats on the Commendation of Bravery!',
+    notes: '',
   },
   
  // Wreckage
   55962: {
-    communication: 'Discord',
+    communication: '',
     flightActivity: '',
     otherActivity: '',
     notes: '',
@@ -200,10 +185,10 @@ const ACTIVITY = {
 
   // Exar Kit
   5243: {
-    communication: 'Discord',
+    communication: '',
     flightActivity: '',
     otherActivity: '',
-    notes: 'Thanks for the BFII and SC session on Saturday!',
+    notes: '',
   },
 };
 
@@ -238,10 +223,7 @@ export default function Report({ activityData }) {
 	  
         <center><h4><span style={{ color: "#1F51FF" }}>Squadron Commander's Speech</span></h4></center>
 		
-		<p>Greetings pilots! Well, who can believe that we’re starting the last week of January already! The time seems to be flying by! The squadron has seen activity from almost every member this week which has been amazing to see. Keep up the great work. </p>
-		<p>Our Chalquilla Cup II (Beer League) team has been finalised, under the name “Sintoxicated” and I look forward to training and competing with all of you. </p>
-		<p>Sadly, our roster is down one pilot this week as we bid farewell to LT Leone123 who departs Sin to the Reserves. </p>
-		<p>There is currently a huge range of competitions to get involved with, please see the competitions section below for some of the ways you can get involved and participate with fleet activities. </p>
+		<p>_____TODO_____</p>
 
       </Intro>
 
@@ -249,14 +231,12 @@ export default function Report({ activityData }) {
 
                 <center><h3><span style={{ color: "#1F51FF" }}>Squadron News</span></h3></center>
         <ul>
-				<li>Sin Squadron has entered a Chalquilla Cup II team under the name of “Sintoxicated”. The team consists of Myself, MAJ Robert Hogan, MAJ Wreckage, SA Kamjin Maverick Lap'lamiz and LCM Keblaomega. Shortly I’ll be looking to get a team Discord channel put together and looking to focus on some training.</li><br></br>
-				<li>Our own LCM Kane Polybius has created no less than five new fictions this week with more in the making. He has started a new episodic series about himself and Sin squadron titled: Black TIE Down. Please take a moment to enjoy them <a href="https://tc.emperorshammer.org/record.php?pin=56085&type=fiction">here</a>.</li><br></br>
-				<li>Finally, I am sad to report that we lose LT Leone123 to the Reserves this week. I would like to thank him for all of his activity and contributions, and look forward to seeing him again soon.</li><br></br>
+				<li>_____TODO_____</li><br></br>
         </ul>
 		
                 <center><h3><span style={{ color: "#1F51FF" }}>Fleet News</span></h3></center>
         <ul>
-				<li>A new Combat Event: <a href=" https://tc.emperorshammer.org/combat.php?id=172"> Week of War V: Squadrons January 2021 (BattleStats)</a> has been announced which invites clubs to play each other in 1v1 through 5v5 dogfights in Star Wars Squadrons. All pilots are encouraged to play, whether casual or competitive!</li><br></br>
+				<li>_____TODO_____</li><br></br>
                 <li><b>TIE Corps in Battle Season 4 Assignments for January:</b> 
 					<br></br><br></br>
 					+ <a href="https://tc.emperorshammer.org/download.php?id=471&type=info"> TIE-TC 165: The Hunt for Zsinj </a>
@@ -282,7 +262,7 @@ export default function Report({ activityData }) {
 
       <Closing>
 	  
-		<p>Thanks to all for the great levels of activity this week. Please keep it coming! </p>
+		<p>_____TODO_____</p>
 		
 		<p>My door is always open to all of you. If you need any help, guidance or just direction for some activities then please don’t hesitate to contact me on Discord of by email. If you’re online and gaming, drop in to one of our voice channels for visibility. You never know you might end up flying with some fellow Sinners or other members of the Corps.</p>
 		<p>For Sin! </p>
