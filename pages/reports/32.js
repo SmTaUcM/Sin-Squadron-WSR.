@@ -16,10 +16,10 @@ import Link from '../../components/link';
 import config from '../../config';
 import loadActivityData from '../../src/loadSquadronActivityData';
 
-const reportNumber = 31;
-const startDate = '2022-01-30';
-const endDate = '2022-02-05';
-const submissionDate = '2022-02-06';
+const reportNumber = 32;
+const startDate = '2022-02-06';
+const endDate = '2022-02-12';
+const submissionDate = '2022-02-13';
 
 const citations = [
   'XvT-TC 14',
@@ -27,7 +27,7 @@ const citations = [
   'XWA-TC 1',
   'XWA-TC 2', 
 ];
-const citationsChange ='+0';
+const citationsChange ='_____TODO_____';
 
 // These don't seem to change anything. Use: citations.js 
 const orders = [
@@ -120,18 +120,18 @@ const combatEvents = [
 const ACTIVITY = {
   // SkyShadow
   6958: {
-    communication: 'Discord, E-Mail',
-    flightActivity: 'Star Conflict PvE',
-    otherActivity: 'IOA Duties, Jigsaw Puzzle Extravaganza, Crossword Challenge, Sinfantry Training',
+    communication: 'Discord',
+    flightActivity: '',
+    otherActivity: '',
     notes: '',
   },
   
   // Ivan Hordiyanko
   56220: {
-    communication: 'Discord',
+    communication: '',
     flightActivity: '',
     otherActivity: '',
-    notes: 'Welcome to the squadron! I hope SWS arrives soon!',
+    notes: '',
   },
   
   // Kazraran
@@ -144,25 +144,25 @@ const ACTIVITY = {
 
   // Earnim Branet
   11276: {
-    communication: 'E-Mail',
+    communication: '',
     flightActivity: '',
 	otherActivity: '',
-    notes: 'Hope you’re feeling better!',
+    notes: '',
   },
   
   // Robert Hogan
   55859: {
-    communication: 'Discord',
-    flightActivity: 'Squadrons PvP & PvE',
+    communication: '',
+    flightActivity: '',
     otherActivity: '',
     notes: '',
   },
 
   // Kane Polybius
   56085: {
-    communication: 'Discord',
-    flightActivity: 'Squadrons PvP',
-    otherActivity: '1x Fiction submission',
+    communication: '',
+    flightActivity: '',
+    otherActivity: '',
     notes: '',
   },
   
@@ -176,8 +176,8 @@ const ACTIVITY = {
   
  // Wreckage
   55962: {
-    communication: 'Discord',
-    flightActivity: 'Squadrons PvP & PvE',
+    communication: '',
+    flightActivity: '',
     otherActivity: '',
     notes: '',
   },
@@ -193,8 +193,8 @@ const ACTIVITY = {
   // Exar Kit
   5243: {
     communication: '',
-    flightActivity: 'Star Conflict PvE',
-    otherActivity: 'Sinfantry Training',
+    flightActivity: '',
+    otherActivity: '',
     notes: '',
   },
 };
@@ -230,10 +230,7 @@ export default function Report({ activityData }) {
 	  
         <center><h4><span style={{ color: "#1F51FF" }}>Squadron Commander's Speech</span></h4></center>
 		
-		<p>Greetings pilots! Well, it’s been a crazy week for news this week! First and foremost, we welcome our newest Sinner: SL Ivan Hordiyanko! Welcome to the squad Ivan! </p>
-		<p>This week has seen members of Sin Squadron compete in Legion’s Challenging Time Trials, produce fiction, compete in Sinfantry training, be interviewed in LegionX’s Airlock PodCast, as well as various other competitions and flying. Well done to everyone! </p>
-		<p>The fleet welcomes in CPT Shang Khan as Beta Squadron’s new Squadron Commander, freeing up an available XO post in Kappa Squadron and the monthly competitions have been refreshed ready for February. </p>
-		<p>Find this and plenty more, in the news sections below. </p>
+		<p>_____TODO_____</p>
 
       </Intro>
 
@@ -241,47 +238,14 @@ export default function Report({ activityData }) {
 
                 <center><h3><span style={{ color: "#1F51FF" }}>Squadron News</span></h3></center>
         <ul>
-				<li>It’s with great pleasure this week that I get to welcome our newest pilot, SL Ivan Hordiyanko! Who Joins Sin as Sin 1-2. Ivan has recently purchased Star Wars Squadrons and it eagerly awaiting its arrival and to get stuck in with some flying. Welcome to the squadron Ivan! We shall watch your career with great interest!</li><br></br>
-				<li>LCM Kane "Tusks" Polybius currently sits in 5th place in Legion's Challenging Time Trials Season with a time of 31:45.51. Awesome work!</li><br></br>
-				<li>Sintoxicated, our Chalquilla Cup 2 team, stands ready and eager to compete in our upcoming first round with The Funky Chickens (Firebird Squadron).</li><br></br>
-				<li>MSE (Monthly Squadron Evaluation) season us upon us once again, I’ve made my recommendations so keep an eye out on your inboxes for incoming shinneys! </li><br></br>
-				<li>Sinfantry Training ran its final session last night and has now come to a close. The final results for the competition are: <br></br><br></br>
-					+ 1st Place - TIED - GN Exar Kit & CPT SkyShadow who both win an IS-SW. <br></br>
-					+ Runner up – MAJ Wreckage who bags a IS-BW. <br></br><br></br>
-					For attending at least 3 of the 5 trainings the following pilots have also won an IS-CW: <br></br><br></br>
-					+ GN Exar Kit<br></br>
-					+ CPT SkyShadow<br></br><br></br>
-					Congratulations to all and thank you for participating. Medals will be in the post shortly!<br></br><br></br>
-					Stay tuned for Season 2 of Sinfantry Training which I intend to announce soon!
-					</li><br></br>
+				<li>_____TODO_____</li><br></br>
         </ul>
 		
                 <center><h3><span style={{ color: "#1F51FF" }}>Fleet News</span></h3></center>
         <ul>
-				<li>Episode 5 of CPT LegionX’s Airlock PodCast was aired, with none other than myself as this week’s guest. <br></br>
-					You can watch the recording of the PodCast <a href="https://www.twitch.tv/videos/1287233732"> here</a>. 
-					</li><br></br>
-				<li>We have a new Beta Squadron Commander! I’m pleased to announce that CPT Shang Khan, formerly XO of Kappa Squadron will be stepping across to take the post. Congratulations!</li><br></br>
-				<li>An available XO position has been announced this week in Kappa Squadron onboard the ISDII Warrior: <br></br><br></br>
-					Duties of Kappa XO: <br></br><br></br>
-					Maintain frequent contact with Flight Members by email or discord DM. <br></br>
-					Solicit and compile weekly activity reports from Flight Members. <br></br>
-					Provide weekly written activity reports to Kappa KMDR. <br></br>
-					Set a positive example of personal activity by consistently earning Legions or single-play awards and frequently entering flight and non-flight comps. Being active in more than one gaming platform is a bonus. <br></br>
-					Be active in discord by frequently offering constructive content and discussion. <br></br>
-					Lead, motivate and encourage Kappa Squadron to greatness. <br></br><br></br>
-					Any active pilot of LT rank or higher is qualified and welcome to apply. If interested, please respond to LC Aardvark privately by email aardvark.tiecorps@gmail.com or discord DM. Deadline for applications is Feb 10. An interview by Discord DM or voice chat will be conducted and the most qualified candidate will be inducted into Kappa Squadron and promoted to Squadron XO.
-					</li><br></br>
-				<li>Legion's Challenging Time Trials Season 3 has BEGUN!!! <br></br><br></br>
-					This it it folks, the biggest one you have been waiting for! Season 3 of the Time Trials has started and the coveted IS-PW is finally on the line! <br></br><br></br>
-					We had some crazy times posted last season and I hope to see those numbers go even lower this season as EVERYONE, even our Admirals, can battle it out to be the fastest pilot in the TIE Corps! <br></br><br></br>
-					IS-PW for First place<br></br>
-					IS-GW for Second<br></br>
-					IS-SW for Third<br></br>
-					IS-BW for Fourth<br></br><br></br>
-					IS-CW will be earned if you reach a time of 2 minutes and 30 seconds or lower and didn't place top 4!
-					</li><br></br>
-                <li><b>TIE Corps in Battle Season 4 Assignments for January:</b> 
+				<li>_____TODO_____</li><br></br>
+
+                <li><b>TIE Corps in Battle Season 4 Assignments for February:_____TODO_____</b> 
 					<br></br><br></br>
 					+ <a href="https://tc.emperorshammer.org/download.php?id=471&type=info"> TIE-TC 165: The Hunt for Zsinj </a>
 					<br></br><br></br>
@@ -306,6 +270,7 @@ export default function Report({ activityData }) {
 
       <Closing>
 	  
+		<p>_____TODO_____</p>
 		<p>My door is always open to all of you. If you need any help, guidance or just direction for some activities then please don’t hesitate to contact me on Discord of by email. If you’re online and gaming, drop in to one of our voice channels for visibility. You never know you might end up flying with some fellow Sinners or other members of the Corps.</p>
 		<p>For Sin! </p>
 		<p>CPT SkyShadow </p>
