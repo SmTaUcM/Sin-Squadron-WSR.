@@ -16,10 +16,10 @@ import Link from '../../components/link';
 import config from '../../config';
 import loadActivityData from '../../src/loadSquadronActivityData';
 
-const reportNumber = 32;
-const startDate = '2022-02-06';
-const endDate = '2022-02-12';
-const submissionDate = '2022-02-13';
+const reportNumber = 33;
+const startDate = '2022-02-13';
+const endDate = '2022-02-19';
+const submissionDate = '2022-02-20';
 
 const citations = [
   'XvT-TC 14',
@@ -27,7 +27,7 @@ const citations = [
   'XWA-TC 1',
   'XWA-TC 2', 
 ];
-const citationsChange ='+0';
+const citationsChange ='_____TODO____';
 
 // These don't seem to change anything. Use: citations.js 
 const orders = [
@@ -122,13 +122,13 @@ const ACTIVITY = {
   6958: {
     communication: 'Discord',
     flightActivity: '',
-    otherActivity: 'Challenge with Words Season 2',
+    otherActivity: '',
     notes: '',
   },
   
   // Ivan Hordiyanko
   56220: {
-    communication: 'Discord',
+    communication: '',
     flightActivity: '',
     otherActivity: '',
     notes: '',
@@ -136,7 +136,7 @@ const ACTIVITY = {
   
   // Kazraran
   56002: {
-    communication: 'Discord',
+    communication: '',
     flightActivity: '',
     otherActivity: '',
     notes: '',
@@ -152,17 +152,17 @@ const ACTIVITY = {
   
   // Robert Hogan
   55859: {
-    communication: 'Discord',
+    communication: '',
     flightActivity: '',
     otherActivity: '',
-    notes: 'Well done on winning Warrior Trivia!',
+    notes: '',
   },
 
   // Kane Polybius
   56085: {
-    communication: 'Discord',
+    communication: '',
     flightActivity: '',
-    otherActivity: '2x Fiction',
+    otherActivity: '',
     notes: '',
   },
   
@@ -176,7 +176,7 @@ const ACTIVITY = {
   
  // Wreckage
   55962: {
-    communication: 'Discord',
+    communication: '',
     flightActivity: '',
     otherActivity: '',
     notes: '',
@@ -230,10 +230,7 @@ export default function Report({ activityData }) {
 	  
         <center><h4><span style={{ color: "#1F51FF" }}>Squadron Commander's Speech</span></h4></center>
 		
-		<p>Greetings pilots! Another week has flown past and once again the fleet has been busy! </p>
-		<p>This week we congratulate LT Ivan Hordiyanko on his promotion to Lieutenant and have seen our Chalquilla Cup team compete in two rounds. We’ve also seen it raining MSE medals! Fantastic work to each and every one of you! </p>
-		<p>The fleet welcomes RA Jaxx Nassin as Logistics Officer for the Emperor’s Hammer command staff and… We have a shiny new website and database to explore and enjoy! </p>
-		<p>Find this and plenty more, in this week's Sin Squadron weekly report... </p>
+		<p>_____TODO____</p>
 
 
       </Intro>
@@ -242,17 +239,12 @@ export default function Report({ activityData }) {
 
                 <center><h3><span style={{ color: "#1F51FF" }}>Squadron News</span></h3></center>
         <ul>
-				<li>LT Ivan Hordiyanko has wasted no time at all in getting stuck into the Sin Squadron way of life. He’s updated his INPR, completed TCCORE and has managed to get his first Legions under his belt. It’s with great pleasure that I can announce Ivan’s promotion to full Lieutenant! Congratulations!</li><br></br>
-				<li>Sintoxicated, our Chalquilla Cup 2 team, competed in two rounds of the tournament on Saturday against The Kansas City Cheeks and Infernder. Sadly, our Fleet Battles generated no wins for our team, but a great time was had by all! I would like to thank everyone on all three teams for a brilliant night of gaming!</li><br></br>
-				<li>January’s MSE (Monthly Squadron Evaluation) Merit Medals have been awarded. Congratulations to all who earned a medal for last month’s activities. I’m extremely proud to see so many of you earn a medal this month! Keep up the fantastic work! </li><br></br>
-				<li>MAJ Robert Hogan has won 1st place in the ISD Warrior Trivia for Season 1 competition! Congrats and great work on the set of questions that you provided!</li><br></br>
+				<li>_____TODO____</li><br></br>
         </ul>
 		
                 <center><h3><span style={{ color: "#1F51FF" }}>Fleet News</span></h3></center>
         <ul>
-				<li>We have a new member of the Emperor’s Hammer Command Staff! Please congratulate RA Jaxx Nassin on his promotion to Rear Admiral and his appointment to Logistics Officer!</li><br></br>
-				<li>The brand-new TIE Corps website and database went live Sunday morning. This represents a huge effort by many of our members to overhaul our website and to bring in some much sought-after improvements! Go ahead and check it out! A huge thanks goes to the Internet Office and it’s staff for some amazing work!</li><br></br>
-				<li>TIE Corps in Battle assignments for February have gone live:</li><br></br>
+				<li>_____TODO____</li><br></br>
 
                 <li><b>TIE Corps in Battle Season 4 Assignments for February:</b> 
 					<br></br><br></br>
@@ -279,6 +271,7 @@ export default function Report({ activityData }) {
 
       <Closing>
 	  
+		<p>_____TODO____</p>
 		<p>My door is always open to all of you. If you need any help, guidance or just direction for some activities then please don’t hesitate to contact me on Discord of by email. If you’re online and gaming, drop in to one of our voice channels for visibility. You never know you might end up flying with some fellow Sinners or other members of the Corps.</p>
 		<p>For Sin! </p>
 		<p>CPT SkyShadow </p>
