@@ -16,7 +16,7 @@ export default {
   cmdr: {
     intro: 'From The Desk of SkyShadow',
     name: 'SkyShadow',
-    title: 'CPT SkyShadow',
+    title: 'MAJ SkyShadow',
     pin: 6958,
     email: 'SmTaUcM@GMail.com',
   },
@@ -26,9 +26,9 @@ export default {
     pin: 55582,
   },
   com: {
-    name: 'Mordechi Wolfe',
-    title: 'HA Mordechi Wolfe',
-    pin: 481,
+    name: '',
+    title: '',
+    pin: 0,
   },
   flights: [{
     name: 'Dark Prophecies',

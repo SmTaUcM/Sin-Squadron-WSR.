@@ -16,18 +16,14 @@ import Link from '../../components/link';
 import config from '../../config';
 import loadActivityData from '../../src/loadSquadronActivityData';
 
-const reportNumber = 33;
-const startDate = '2022-02-13';
-const endDate = '2022-02-19';
-const submissionDate = '2022-02-20';
+const reportNumber = 36;
+const startDate = '2022-03-13';
+const endDate = '2022-03-19';
+const submissionDate = '2022-03-20';
 
 const citations = [
-  'XvT-TC 14',
-  'XvT-TC 70',
-  'XWA-TC 1',
-  'XWA-TC 2', 
 ];
-const citationsChange ='_____TODO____';
+const citationsChange ='_____TODO_____';
 
 // These don't seem to change anything. Use: citations.js 
 const orders = [
@@ -48,7 +44,7 @@ const competitions = [
   name: 'TIE Corps in Battle Season Four',
   ends: '2022-05-08',
   units: 'Entire TC',
-  notes: 'One battle each from TIE, XvT, and XWA will be assigned monthly (10th to the 10th). Pilots will fly the battles and submit their pilot files through the database normally. ne battle each from TIE, XvT, and XWA will be assigned monthly. Pilots will fly the battles and submit their pilot files through the database normally. ',
+  notes: 'One battle each from TIE, XvT, and XWA will be assigned monthly (10th to the 10th). Pilots will fly the battles and submit their pilot files through the database normally. One battle each from TIE, XvT, and XWA will be assigned monthly. Pilots will fly the battles and submit their pilot files through the database normally. ',
 }, 
 
 {
@@ -80,7 +76,7 @@ const competitions = [
   name: 'The Challenge With Words',
   ends: '2022-03-31',
   units: 'Entire TC',
-  notes: 'Pilots earn monthly medals for the quickest time to complete a word search. February\'s word search can be found at https://mywordsearch.com/582783/Species',
+  notes: 'Pilots earn monthly medals for the quickest time to complete a word search. March\'s word search can be found at https://mywordsearch.com/593186/Species2',
 },
 
 {
@@ -88,7 +84,7 @@ const competitions = [
   name: '2022 Crossword Challenge',
   ends: '2022-04-30',
   units: 'Entire TC',
-  notes: 'A crossword puzzle where every month a new crossword puzzle will be created with a specific theme. Complete the crossword puzzle and email a screenshot to Solohan50@gmail.com. Your monthly placement will be determined by the order in which 100% complete submissions are received. January\'s crossword can be found at https://puzzel.org/en/crossword/play?p=-MsWxbWw6lMUnGdYv1LW',
+  notes: 'A crossword puzzle where every month a new crossword puzzle will be created with a specific theme. 1. Make sure to read the Test Details fully. 2. The URL to the crossword is listed in Question 1 on the test. IT IS NOT A HYPERLINK. You have to copy/paste it into your URL bar. 3. Once you hit Begin Test, we can\'t do anything for you if you encounter issues.  Make sure you understand what you need to do and PM me if you have any questions. Your monthly placement will be determined by the order in which 100% complete submissions are received. March\'s crossword can be found at https://tc.emperorshammer.org/timetest.php?testid=5b2d19ce52',
 },
 
 {
@@ -96,7 +92,7 @@ const competitions = [
   name: 'TIE Corps Jigsaw Puzzle Extravaganza 2022',
   ends: '2022-04-30',
   units: 'Entire TC',
-  notes: 'Every month a new puzzle will be announced and pilots will compete for the best time with medals up for grabs for the top 6 fastest pilots as well as points accrued. January\'s jigsaw can be found at https://www.jigsawplanet.com/?rc=play&pid=0cda5dd6c235',
+  notes: 'Every month a new puzzle will be announced and pilots will compete for the best time with medals up for grabs for the top 6 fastest pilots as well as points accrued. March\'s jigsaw can be found at https://www.jigsawplanet.com/?rc=play&pid=38aa3022e180',
 },
 
 {
@@ -128,7 +124,7 @@ const ACTIVITY = {
   
   // Ivan Hordiyanko
   56220: {
-    communication: 'Discord',
+    communication: '',
     flightActivity: '',
     otherActivity: '',
     notes: '',
@@ -136,10 +132,10 @@ const ACTIVITY = {
   
   // Kazraran
   56002: {
-    communication: 'Discord',
+    communication: '',
     flightActivity: '',
-    otherActivity: 'Website bug report',
-    notes: 'Fantastic SP flying this week! Keep it up!',
+    otherActivity: '',
+    notes: '',
   },
 
   // Earnim Branet
@@ -152,7 +148,7 @@ const ACTIVITY = {
   
   // Robert Hogan
   55859: {
-    communication: 'Discord',
+    communication: '',
     flightActivity: '',
     otherActivity: '',
     notes: '',
@@ -162,13 +158,21 @@ const ACTIVITY = {
   56085: {
     communication: 'Discord',
     flightActivity: '',
-    otherActivity: '2x Fictions',
-    notes: 'Keep up the superb writing!',
+    otherActivity: '',
+    notes: '',
   },
   
   // AnArKey223
   56157: {
-    communication: 'Discord',
+    communication: '',
+    flightActivity: '',
+    otherActivity: '',
+    notes: '',
+  },
+  
+   // Valario Valent
+  56234: {
+    communication: '',
     flightActivity: '',
     otherActivity: '',
     notes: '',
@@ -176,7 +180,7 @@ const ACTIVITY = {
   
  // Wreckage
   55962: {
-    communication: 'Discord',
+    communication: '',
     flightActivity: '',
     otherActivity: '',
     notes: '',
@@ -184,6 +188,14 @@ const ACTIVITY = {
 
   // AlexanderK9
   56110: {
+    communication: '',
+    flightActivity: '',
+    otherActivity: '',
+    notes: '',
+  },
+  
+  // Giada Aurelious
+  56247: {
     communication: '',
     flightActivity: '',
     otherActivity: '',
@@ -230,8 +242,7 @@ export default function Report({ activityData }) {
 	  
         <center><h4><span style={{ color: "#1F51FF" }}>Squadron Commander's Speech</span></h4></center>
 		
-		<p>_____TODO____</p>
-
+		<p><li>_____TODO_____</li><br></br></p>
 
       </Intro>
 
@@ -239,23 +250,20 @@ export default function Report({ activityData }) {
 
                 <center><h3><span style={{ color: "#1F51FF" }}>Squadron News</span></h3></center>
         <ul>
-				<li>_____TODO____</li><br></br>
-				// Me promoted
-				// Mordechi leaving
-				// CC Round 4 tonight
+				<li>_____TODO_____</li><br></br>
         </ul>
 		
                 <center><h3><span style={{ color: "#1F51FF" }}>Fleet News</span></h3></center>
         <ul>
-				<li>_____TODO____</li><br></br>
+				<li>_____TODO_____</li><br></br>
 
-                <li><b>TIE Corps in Battle Season 4 Assignments for February:</b> 
+                <li><b>TIE Corps in Battle Season 4 Assignments for March:</b> 
 					<br></br><br></br>
-					+ <a href="https://tc.emperorshammer.org/download.php?id=19&type=info"> TIE-TC 19: The Tethys Honeymoon</a>
+					+ <a href="https://tc.emperorshammer.org/download.php?id=304&type=info"> TIE-TC 132: Battle of the Bins</a>
 					<br></br><br></br>
-					+ <a href="https://tc.emperorshammer.org/download.php?id=253&type=info"> XvT-TC 3: Preparing for Battle</a>
+					+ <a href="https://tc.emperorshammer.org/download.php?id=937&type=info"> XvT-TC 61: Operation Cotton Candy</a>
 					<br></br><br></br>
-					+ <a href="https://tc.emperorshammer.org/download.php?id=341&type=info"> XWA-IW 1: Abyssi Ianua - Gates to Hell</a>
+					+ <a href="https://tc.emperorshammer.org/download.php?id=394&type=info"> XWA-IW 2: Rion's Shadow Campaign: Infiltrate Rion</a>
 				</li><br></br>
         </ul>
 
@@ -273,8 +281,8 @@ export default function Report({ activityData }) {
       />
 
       <Closing>
-	  
-		<p>_____TODO____</p>
+	 
+		<p>_____TODO_____</p>
 		<p>My door is always open to all of you. If you need any help, guidance or just direction for some activities then please don’t hesitate to contact me on Discord of by email. If you’re online and gaming, drop in to one of our voice channels for visibility. You never know you might end up flying with some fellow Sinners or other members of the Corps.</p>
 		<p>For Sin! </p>
 		<p>MAJ SkyShadow </p>

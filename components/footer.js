@@ -20,7 +20,7 @@ const links = [{
   href: 'https://tc.emperorshammer.org/battlecenter.php',
   title: 'Battle Center',
 }, {
-  href: `https://tc.emperorshammer.org/showreport.php?id=1&nid=${config.squadronId}`,
+  href: `https://tc.emperorshammer.org/showreport.php?unit=${config.squadronId}`,
   title: 'Report Archive',
 }];
 

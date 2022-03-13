@@ -16,18 +16,14 @@ import Link from '../../components/link';
 import config from '../../config';
 import loadActivityData from '../../src/loadSquadronActivityData';
 
-const reportNumber = 33;
-const startDate = '2022-02-13';
-const endDate = '2022-02-19';
-const submissionDate = '2022-02-20';
+const reportNumber = 35;
+const startDate = '2022-02-27';
+const endDate = '2022-03-12';
+const submissionDate = '2022-03-13';
 
 const citations = [
-  'XvT-TC 14',
-  'XvT-TC 70',
-  'XWA-TC 1',
-  'XWA-TC 2', 
 ];
-const citationsChange ='_____TODO____';
+const citationsChange ='+0';
 
 // These don't seem to change anything. Use: citations.js 
 const orders = [
@@ -48,7 +44,7 @@ const competitions = [
   name: 'TIE Corps in Battle Season Four',
   ends: '2022-05-08',
   units: 'Entire TC',
-  notes: 'One battle each from TIE, XvT, and XWA will be assigned monthly (10th to the 10th). Pilots will fly the battles and submit their pilot files through the database normally. ne battle each from TIE, XvT, and XWA will be assigned monthly. Pilots will fly the battles and submit their pilot files through the database normally. ',
+  notes: 'One battle each from TIE, XvT, and XWA will be assigned monthly (10th to the 10th). Pilots will fly the battles and submit their pilot files through the database normally. One battle each from TIE, XvT, and XWA will be assigned monthly. Pilots will fly the battles and submit their pilot files through the database normally. ',
 }, 
 
 {
@@ -80,7 +76,7 @@ const competitions = [
   name: 'The Challenge With Words',
   ends: '2022-03-31',
   units: 'Entire TC',
-  notes: 'Pilots earn monthly medals for the quickest time to complete a word search. February\'s word search can be found at https://mywordsearch.com/582783/Species',
+  notes: 'Pilots earn monthly medals for the quickest time to complete a word search. March\'s word search can be found at https://mywordsearch.com/593186/Species2',
 },
 
 {
@@ -88,7 +84,7 @@ const competitions = [
   name: '2022 Crossword Challenge',
   ends: '2022-04-30',
   units: 'Entire TC',
-  notes: 'A crossword puzzle where every month a new crossword puzzle will be created with a specific theme. Complete the crossword puzzle and email a screenshot to Solohan50@gmail.com. Your monthly placement will be determined by the order in which 100% complete submissions are received. January\'s crossword can be found at https://puzzel.org/en/crossword/play?p=-MsWxbWw6lMUnGdYv1LW',
+  notes: 'A crossword puzzle where every month a new crossword puzzle will be created with a specific theme. 1. Make sure to read the Test Details fully. 2. The URL to the crossword is listed in Question 1 on the test. IT IS NOT A HYPERLINK. You have to copy/paste it into your URL bar. 3. Once you hit Begin Test, we can\'t do anything for you if you encounter issues.  Make sure you understand what you need to do and PM me if you have any questions. Your monthly placement will be determined by the order in which 100% complete submissions are received. March\'s crossword can be found at https://tc.emperorshammer.org/timetest.php?testid=5b2d19ce52',
 },
 
 {
@@ -96,7 +92,7 @@ const competitions = [
   name: 'TIE Corps Jigsaw Puzzle Extravaganza 2022',
   ends: '2022-04-30',
   units: 'Entire TC',
-  notes: 'Every month a new puzzle will be announced and pilots will compete for the best time with medals up for grabs for the top 6 fastest pilots as well as points accrued. January\'s jigsaw can be found at https://www.jigsawplanet.com/?rc=play&pid=0cda5dd6c235',
+  notes: 'Every month a new puzzle will be announced and pilots will compete for the best time with medals up for grabs for the top 6 fastest pilots as well as points accrued. March\'s jigsaw can be found at https://www.jigsawplanet.com/?rc=play&pid=38aa3022e180',
 },
 
 {
@@ -121,15 +117,15 @@ const ACTIVITY = {
   // SkyShadow
   6958: {
     communication: 'Discord',
-    flightActivity: '',
-    otherActivity: '',
+    flightActivity: 'Star Conflict PvP',
+    otherActivity: 'Challenge with Words, Crossword Challenge, Jigsaw Puzzle Extravaganza',
     notes: '',
   },
   
   // Ivan Hordiyanko
   56220: {
     communication: 'Discord',
-    flightActivity: '',
+    flightActivity: 'Battlefront PvP & PvE',
     otherActivity: '',
     notes: '',
   },
@@ -137,9 +133,9 @@ const ACTIVITY = {
   // Kazraran
   56002: {
     communication: 'Discord',
-    flightActivity: '',
-    otherActivity: 'Website bug report',
-    notes: 'Fantastic SP flying this week! Keep it up!',
+    flightActivity: 'SP (TIE/XvT/XWA)',
+    otherActivity: '',
+    notes: 'Amazing SP flying again! Well done!',
   },
 
   // Earnim Branet
@@ -154,7 +150,7 @@ const ACTIVITY = {
   55859: {
     communication: 'Discord',
     flightActivity: '',
-    otherActivity: '',
+    otherActivity: 'Battlefront PvP',
     notes: '',
   },
 
@@ -162,12 +158,20 @@ const ACTIVITY = {
   56085: {
     communication: 'Discord',
     flightActivity: '',
-    otherActivity: '2x Fictions',
-    notes: 'Keep up the superb writing!',
+    otherActivity: 'Sin Sqn RP Channel',
+    notes: '',
   },
   
   // AnArKey223
   56157: {
+    communication: '',
+    flightActivity: '',
+    otherActivity: 'Squadrons PvP',
+    notes: '',
+  },
+  
+   // Valario Valent
+  56234: {
     communication: 'Discord',
     flightActivity: '',
     otherActivity: '',
@@ -177,7 +181,7 @@ const ACTIVITY = {
  // Wreckage
   55962: {
     communication: 'Discord',
-    flightActivity: '',
+    flightActivity: 'SP (XvT)',
     otherActivity: '',
     notes: '',
   },
@@ -189,11 +193,19 @@ const ACTIVITY = {
     otherActivity: '',
     notes: '',
   },
+  
+  // Giada Aurelious
+  56247: {
+    communication: 'Discord',
+    flightActivity: '',
+    otherActivity: '',
+    notes: 'Welcome to Sin!',
+  },
 
   // Exar Kit
   5243: {
-    communication: '',
-    flightActivity: '',
+    communication: 'Discord',
+    flightActivity: 'Star Conflict PvE',
     otherActivity: '',
     notes: '',
   },
@@ -230,7 +242,12 @@ export default function Report({ activityData }) {
 	  
         <center><h4><span style={{ color: "#1F51FF" }}>Squadron Commander's Speech</span></h4></center>
 		
-		<p>_____TODO____</p>
+		<p>Greetings pilots! Sorry for the lack of a report last week. Real life threw me a curve ball last week, as it does sometimes, which hogged a lot more of my time than I would have liked but we’re back up and running again this week! </p>
+		<p>This week we welcome our 12th pilot! Yes, Sin is at maximum capacity and we warmly welcome SL Giada Aurelious to our ranks. </p>
+		<p>February is well and truly behind us now and my recommendations for Feb’s MSEs are with command.  </p>
+		<p>In the wider fleet we saw Sin squadron take all three top spots in the Kill Boards for February! Congratulations and a very well done to all!  <br></br> We also see LC Taygetta stepping down as Epsilon Squadron’s commander.  </p>
+		<p>Find this and plenty more, in the news sections below. </p>
+
 
 
       </Intro>
@@ -239,23 +256,27 @@ export default function Report({ activityData }) {
 
                 <center><h3><span style={{ color: "#1F51FF" }}>Squadron News</span></h3></center>
         <ul>
-				<li>_____TODO____</li><br></br>
-				// Me promoted
-				// Mordechi leaving
-				// CC Round 4 tonight
+				<li>In a stunning effort during February, Sin Squadron managed to take all three top spots on the Single Player, Multiplayer and Cooperative kill boards. With such a fantastic turnout and effort, I would like to thank you all for our hard work and activity! What an amazing result.</li><br></br>
+				<li>Sin Squadron welcomes its 12th pilot, SL Giada Aurelious! We warmly greet you and wish you every success in your career! SL Giada Aurelious was recruited by LCM Kane Polybius who earns himself a Medal of Instruction! Congrats!</li><br></br>
+				<li>Sintoxicated, our Chalquilla Cup 2 team, has struggled to get any rounds played over the last week and is preparing for a double header this weekend. It’s key that the team get these rounds in less we risk having to forfeit the rounds.</li><br></br>
+				<li>February’s MSE (Monthly Squadron Evaluation) recommendations have been submitted and are awaiting approval from command. </li><br></br>
         </ul>
 		
                 <center><h3><span style={{ color: "#1F51FF" }}>Fleet News</span></h3></center>
         <ul>
-				<li>_____TODO____</li><br></br>
+				<li>Earlier this week LC Taygetta informed the HamCOM that he plans to step back from the Epsilon CMDR position due to RL commitments.  <br></br>
+				Firstly, a big thank you to Tay for all he’s done - being a CMDR is quite the ride. He will be staying on until we identify a suitable replacement. <br></br>
+				If you are interested in a CMDR position, please drop VA Phoenix Berkana a email - only prerequisite is SM/5 (or a plan to take it ASAP), ideas on how to take the Squadron forward and a drive to succeed. The brand-new TIE Corps website and database went live Sunday morning. This represents a huge effort by many of our members to overhaul our website and to bring in some much sought-after improvements! Go ahead and check it out! A huge thanks goes to the Internet Office and its staff for some amazing work!
+				</li><br></br>
+				<li>TIE Corps in Battle assignments for March have gone live:</li><br></br>
 
-                <li><b>TIE Corps in Battle Season 4 Assignments for February:</b> 
+                <li><b>TIE Corps in Battle Season 4 Assignments for March:</b> 
 					<br></br><br></br>
-					+ <a href="https://tc.emperorshammer.org/download.php?id=19&type=info"> TIE-TC 19: The Tethys Honeymoon</a>
+					+ <a href="https://tc.emperorshammer.org/download.php?id=304&type=info"> TIE-TC 132: Battle of the Bins</a>
 					<br></br><br></br>
-					+ <a href="https://tc.emperorshammer.org/download.php?id=253&type=info"> XvT-TC 3: Preparing for Battle</a>
+					+ <a href="https://tc.emperorshammer.org/download.php?id=937&type=info"> XvT-TC 61: Operation Cotton Candy</a>
 					<br></br><br></br>
-					+ <a href="https://tc.emperorshammer.org/download.php?id=341&type=info"> XWA-IW 1: Abyssi Ianua - Gates to Hell</a>
+					+ <a href="https://tc.emperorshammer.org/download.php?id=394&type=info"> XWA-IW 2: Rion's Shadow Campaign: Infiltrate Rion</a>
 				</li><br></br>
         </ul>
 
@@ -274,7 +295,6 @@ export default function Report({ activityData }) {
 
       <Closing>
 	  
-		<p>_____TODO____</p>
 		<p>My door is always open to all of you. If you need any help, guidance or just direction for some activities then please don’t hesitate to contact me on Discord of by email. If you’re online and gaming, drop in to one of our voice channels for visibility. You never know you might end up flying with some fellow Sinners or other members of the Corps.</p>
 		<p>For Sin! </p>
 		<p>MAJ SkyShadow </p>
