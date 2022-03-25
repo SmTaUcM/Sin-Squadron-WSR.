@@ -26,7 +26,7 @@ export const medals = {
   SS: 'silver star of the empire',
   GS: 'gold star of the empire',
   OOR: 'oor',
-  GOE: 'goe',
+  GOE: 'grand order of the emperor',
   MOH: 'moh',
   TUA: 'tua',
   MUA: 'mua',
