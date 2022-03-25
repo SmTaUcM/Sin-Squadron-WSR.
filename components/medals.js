@@ -17,7 +17,7 @@ export const medals = {
   MOC_BOC: 'medal of communication - bronze oak cluster',
   MOC_SOC: 'medal of communication - silver oak cluster',
   COB: 'commendation of bravery',
-  MOI: 'moi',
+  MOI: 'medal of instruction',
   IAR: 'imperial achievement ribbon',
   ISM: 'imperial security medal',
   IC: 'ic',
