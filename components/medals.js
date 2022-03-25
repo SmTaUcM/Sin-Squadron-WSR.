@@ -24,7 +24,7 @@ export const medals = {
   PC: 'pc',
   BS: 'bs',
   SS: 'ss',
-  GS: 'gs',
+  GS: 'gold star of the empire',
   OOR: 'oor',
   GOE: 'goe',
   MOH: 'moh',
@@ -36,7 +36,7 @@ export const medalImages = Object.values(medals).reduce((acc, medal) => ({
   ...acc,
   [medal]: () => (
     <img
-      src={`https://tempest-blown-with-the-wind.vercel.app/medals/${medal}.jpg`}
+      src={`https://raw.githubusercontent.com/SmTaUcM/Sin-Squadron-WSR/master/public/medals/${medal}.jpg`}
       alt={`Icon for ${medal}`}
       style={styles.medal}
     />
