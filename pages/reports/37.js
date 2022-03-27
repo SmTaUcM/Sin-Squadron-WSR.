@@ -16,14 +16,14 @@ import Link from '../../components/link';
 import config from '../../config';
 import loadActivityData from '../../src/loadSquadronActivityData';
 
-const reportNumber = 36;
-const startDate = '2022-03-13';
-const endDate = '2022-03-26';
-const submissionDate = '2022-03-20';
+const reportNumber = 37;
+const startDate = '2022-03-27';
+const endDate = '2022-04-09';
+const submissionDate = '2022-04-10';
 
 const citations = [
 ];
-const citationsChange ='+0';
+const citationsChange ='_____TODO_____';
 
 // These don't seem to change anything. Use: citations.js 
 const orders = [
@@ -140,7 +140,7 @@ const ACTIVITY = {
 
   // Earnim Branet
   11276: {
-    communication: 'Email',
+    communication: '',
     flightActivity: '',
 	otherActivity: '',
     notes: '',
@@ -148,7 +148,7 @@ const ACTIVITY = {
   
   // Robert Hogan
   55859: {
-    communication: 'Discord',
+    communication: '',
     flightActivity: '',
     otherActivity: '',
     notes: '',
@@ -156,7 +156,7 @@ const ACTIVITY = {
 
   // Kane Polybius
   56085: {
-    communication: 'Discord',
+    communication: '',
     flightActivity: '',
     otherActivity: '',
     notes: '',
@@ -172,7 +172,7 @@ const ACTIVITY = {
   
    // Valario Valent
   56234: {
-    communication: 'Discord',
+    communication: '',
     flightActivity: '',
     otherActivity: '',
     notes: '',
@@ -242,11 +242,7 @@ export default function Report({ activityData }) {
 	  
         <center><h4><span style={{ color: "#1F51FF" }}>Squadron Commander's Speech</span></h4></center>
 		
-		<p>Greetings pilots! This report sees myself complete my first tour of duty as Sin squadron’s commander and wow, what a ride it’s been! To top it all off the last week as seemed to rain nothing but promotions and medals and there are many congratulations to be given! </p>
-		<p>This week sees the announcement of our new ISDII Warrior Commodore, VA Marenta. Congratulations on your appointment and the very best of luck in your new role. </p>
-		<p>Sin has also seen no less than three promotions for our pilots this week! Very well earned to each and every one of you.  </p>
-		<p>Once again Sin is reigning supreme on all three of the kill boards and is looking to finish March in a strong position.  </p>
-		<p>Find this and plenty more, in the news sections below. </p>
+		<p>_____TODO_____</p>
 
       </Intro>
 
@@ -254,23 +250,13 @@ export default function Report({ activityData }) {
 
                 <center><h3><span style={{ color: "#1F51FF" }}>Squadron News</span></h3></center>
         <ul>
-				<li>In another stunning effort this month, Sin Squadron is once again poised to take all three top spots on the Single Player, Multiplayer and Cooperative kill boards. Keep up the fantastic work!</li><br></br>
-				<li>MSE Medals have been recommended and awarded for February. Congratulations to all pilots who medalled for last month.</li><br></br>
-				<li>Giada Aurelious has wasted no time at all in getting her first rounds of legions in and is promoted to full Lieutenant.</li><br></br>
-				<li>Robert Hogan is promoted to Lieutenant Colonel after an amazing year of activity and contribution to the TIE Corps. Very well-deserved Robert!</li><br></br>
-				<li>Kazraran is also promoted to Captain and is well underway in another insane month of SP flying. Congratulations!</li><br></br>
-				<li>Following the reassignment of HA Mordechi Wolfe, we took some time to seek out a new WarCOM and have selected none other than COL Marenta who will be the Commodore of the ISDII Warrior as Vice Admiral Marenta. Congratulations and good luck in your new role!</li><br></br>
-
+				<li>_____TODO_____</li><br></br>
         </ul>
 		
                 <center><h3><span style={{ color: "#1F51FF" }}>Fleet News</span></h3></center>
 
 		<ul>
-				<li>CPT Xye has been appointed CMDR of Beta squadron.</li><br></br>
-				<li>FA La'an is appointed as Epsilon squadron commander.</li><br></br>
-				<li>In the near future, the Internet Office will begin converting some data over from the https://emperorshammer.org/ database to the database that runs the new site.  In preparation for this migration, if you have an account on the https://emperorshammer.org/ site, please ensure that the email address on that profile is updated to match your current TIE Corps email address on your https://tc.emperorshammer.org/ profile.</li><br></br>
-				<li>Fleet Admiral Turtle awarded the Medal of Honor for his outstanding work on the new website and for everything he had done since becoming the Internet Officer</li><br></br>
-				<li>In recognition of his development efforts in support of Project Minos Relevancy, I am proud to announce that @FA Pickled Yoda (TAC) has been awarded the Imperial Cross by the Fleet Commander!</li><br></br>
+				<li>_____TODO_____</li><br></br>
 
                 <li><b>TIE Corps in Battle Season 4 Assignments for March:</b> 
 					<br></br><br></br>
@@ -297,6 +283,7 @@ export default function Report({ activityData }) {
 
       <Closing>
 	  
+		<p>_____TODO_____</p>
 		<p>My door is always open to all of you. If you need any help, guidance or just direction for some activities then please don’t hesitate to contact me on Discord of by email. If you’re online and gaming, drop in to one of our voice channels for visibility. You never know you might end up flying with some fellow Sinners or other members of the Corps.</p>
 		<p>For Sin! </p>
 		<p>MAJ SkyShadow </p>

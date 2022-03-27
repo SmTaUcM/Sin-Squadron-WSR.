@@ -26,9 +26,9 @@ export default {
     pin: 55582,
   },
   com: {
-    name: '',
-    title: '',
-    pin: 0,
+    name: 'Marenta',
+    title: 'VA Marenta',
+    pin: 708,
   },
   flights: [{
     name: 'Dark Prophecies',
