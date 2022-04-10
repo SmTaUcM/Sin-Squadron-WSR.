@@ -16,14 +16,14 @@ import Link from '../../components/link';
 import config from '../../config';
 import loadActivityData from '../../src/loadSquadronActivityData';
 
-const reportNumber = 37;
-const startDate = '2022-03-27';
-const endDate = '2022-04-09';
-const submissionDate = '2022-04-10';
+const reportNumber = 38;
+const startDate = '2022-04-10';
+const endDate = '2022-04-23';
+const submissionDate = '2022-04-24';
 
 const citations = [
 ];
-const citationsChange ='+0';
+const citationsChange ='_____TODO_____';
 
 // These don't seem to change anything. Use: citations.js 
 const orders = [
@@ -100,15 +100,15 @@ const ACTIVITY = {
   // SkyShadow
   6958: {
     communication: 'Discord',
-    flightActivity: 'Star Conflict PvE',
+    flightActivity: '',
     otherActivity: '',
     notes: '',
   },
   
   // Ivan Hordiyanko
   56220: {
-    communication: 'Discord',
-    flightActivity: 'Battlefront 2 PvP',
+    communication: '',
+    flightActivity: '',
     otherActivity: '',
     notes: '',
   },
@@ -116,14 +116,14 @@ const ACTIVITY = {
   // Kazraran
   56002: {
     communication: '',
-    flightActivity: 'TIE & XvT Single Player',
+    flightActivity: '',
     otherActivity: '',
     notes: '',
   },
 
   // Earnim Branet
   11276: {
-    communication: 'Email',
+    communication: '',
     flightActivity: '',
 	otherActivity: '',
     notes: '',
@@ -131,15 +131,15 @@ const ACTIVITY = {
   
   // Robert Hogan
   55859: {
-    communication: 'Discord, Email',
-    flightActivity: 'Battlefront 1 & 2 PvP',
+    communication: '',
+    flightActivity: '',
     otherActivity: '',
     notes: '',
   },
 
   // Kane Polybius
   56085: {
-    communication: 'Discord',
+    communication: '',
     flightActivity: '',
     otherActivity: '',
     notes: '',
@@ -147,7 +147,7 @@ const ACTIVITY = {
   
   // AnArKey223
   56157: {
-    communication: 'Discord',
+    communication: '',
     flightActivity: '',
     otherActivity: '',
     notes: '',
@@ -155,15 +155,15 @@ const ACTIVITY = {
   
    // Valario Valent
   56234: {
-    communication: 'Discord',
-    flightActivity: 'Squadrons PvP',
+    communication: '',
+    flightActivity: '',
     otherActivity: '',
     notes: '',
   },
   
  // Wreckage
   55962: {
-    communication: 'Discord',
+    communication: '',
     flightActivity: '',
     otherActivity: '',
     notes: '',
@@ -179,7 +179,7 @@ const ACTIVITY = {
   
   // Giada Aurelious
   56247: {
-    communication: 'Discord',
+    communication: '',
     flightActivity: '',
     otherActivity: '',
     notes: '',
@@ -225,10 +225,7 @@ export default function Report({ activityData }) {
 	  
         <center><h4><span style={{ color: "#1F51FF" }}>Squadron Commander's Speech</span></h4></center>
 		
-		<p>Greetings pilots! April is upon us, and with that Imperial Storm 4 has begun! One of the big TIE Corps competitions of the year, IS4 pitches the ISDII Hammer, Challenge and Warrior against one another in a pseudo table-top game of strategy where each ship will encounter battles against one another. Keep your eyes peeled on Discord for news announcements and strategy discussions. And as always, be prepared for battle! </p>
-		<p>Sin has enjoyed two more promotions for our pilots this week! Congratulations and very well earned.  </p>
-		<p>Once again, again, Sin conquered during March on all three of the kill boards and came out on top across all three categories.  </p>
-		<p>Find this and plenty more, in the news sections below. </p>
+		<p>_____TODO_____</p>
 
 
       </Intro>
@@ -237,18 +234,13 @@ export default function Report({ activityData }) {
 
                 <center><h3><span style={{ color: "#1F51FF" }}>Squadron News</span></h3></center>
         <ul>
-				<li>In another amazing effort in March, Sin Squadron once again takes all three top spots on the Single Player, Multiplayer and Cooperative kill boards. Keep up the fantastic work I’m proud of you all!</li><br></br>
-				<li>MSE Medals have been recommended and awarded for March. Congratulations to all pilots who medalled for last month.</li><br></br>
-				<li>We celebrate the very well-deserved promotions of Ivan Hordiyanko to Lieutenant Commander (LCM) and Kane Polybius to Commander (CM). Congratulations to the both of you! Well done indeed!</li><br></br>
+				<li>_____TODO_____</li><br></br>
         </ul>
 		
                 <center><h3><span style={{ color: "#1F51FF" }}>Fleet News</span></h3></center>
 
 		<ul>
-				<li>Imperial Storm 4 has begun! The TIE Corps War Game that pits all three of our Star Destroyers against each other. <br></br><br></br>
-				The game kicks off Friday the 8th of April and will run for 30 days, each day being one turn of the game. Each of our team Captains (VA Silwar, VA Marenta and COL Genie) have assembled a fleet in discussions with their ships which will be used to take and hold worlds on a map of the area we currently call home. Whenever opposing teams meet, a battle will ensue and this is where YOU, the pilots of the TIE Corps play a key role. How you fly will determine how well your team does, and who will take the bragging rights when the game ends on May 8th. <br></br><br></br>
-				Turn 5 has been completed and publicly there are no changes to the map as of yet. All three teams had forces arrive at worlds at the end of Turn 4 and are in the process of taking these - teams will begin earning points from these conquests on turn six. For now the whereabouts of the might of each team is unknown. Your respective team captains have all the details, so if you’re curious please reach out! Finally drop in on the #imperial-news-network for all your Imperial Storm news on your favourite local discord server!!! With turn six occurring on Sunday. I hope we will have a combat event shortly, as we will have a brief 4 day break over the Easter long weekend.
-				</li><br></br>
+				<li>_____TODO_____</li><br></br>
 
                 <li><b>TIE Corps in Battle Season 4 Assignments for April:</b> 
 					<br></br><br></br>
@@ -275,7 +267,7 @@ export default function Report({ activityData }) {
 
       <Closing>
 	  
-	  
+		<p>_____TODO_____</p>
 		<p>My door is always open to all of you. If you need any help, guidance or just direction for some activities then please don’t hesitate to contact me on Discord of by email. If you’re online and gaming, drop in to one of our voice channels for visibility. You never know you might end up flying with some fellow Sinners or other members of the Corps.</p>
 		<p>For Sin! </p>
 		<p>MAJ SkyShadow </p>
