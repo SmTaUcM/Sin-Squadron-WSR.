@@ -23,13 +23,22 @@ const submissionDate = '2022-04-24';
 
 const citations = [
 ];
-const citationsChange ='_____TODO_____';
+const citationsChange ='+0';
 
 // These don't seem to change anything. Use: citations.js 
 const orders = [
 ];
 
 const competitions = [
+{
+  id: '3384',
+  name: 'Sinfantry Training - Season 2',
+  ends: '2022-09-30',
+  units: 'members of Sin Squadron',
+  notes: 'Every first and third Saturday of the month, Sin Squadron will assemble for PvP and CoOp matches in Star Wars Squadrons, Battlefront, and Star Conflict.',
+  highlight: true,
+}, 
+
 {
   id: '3363',
   name: 'TIE Corps in Battle Season Four',
@@ -100,14 +109,14 @@ const ACTIVITY = {
   // SkyShadow
   6958: {
     communication: 'Discord',
-    flightActivity: '',
+    flightActivity: 'Star Conflict PvP & PvE',
     otherActivity: '',
     notes: '',
   },
   
-  // Ivan Hordiyanko
-  56220: {
-    communication: '',
+ // Wreckage
+  55962: {
+    communication: 'Discord',
     flightActivity: '',
     otherActivity: '',
     notes: '',
@@ -115,8 +124,8 @@ const ACTIVITY = {
   
   // Kazraran
   56002: {
-    communication: '',
-    flightActivity: '',
+    communication: 'Discord',
+    flightActivity: 'TIE & XvT Single Player',
     otherActivity: '',
     notes: '',
   },
@@ -124,22 +133,22 @@ const ACTIVITY = {
   // Earnim Branet
   11276: {
     communication: '',
-    flightActivity: '',
+    flightActivity: 'Star Conflict PvE',
 	otherActivity: '',
     notes: '',
   },
   
   // Robert Hogan
   55859: {
-    communication: '',
-    flightActivity: '',
+    communication: 'Discord',
+    flightActivity: 'Battlefront PvP, Squadrons PvE',
     otherActivity: '',
     notes: '',
   },
 
   // Kane Polybius
   56085: {
-    communication: '',
+    communication: 'Discord',
     flightActivity: '',
     otherActivity: '',
     notes: '',
@@ -147,8 +156,8 @@ const ACTIVITY = {
   
   // AnArKey223
   56157: {
-    communication: '',
-    flightActivity: '',
+    communication: 'Discord',
+    flightActivity: 'Squadrons PvP',
     otherActivity: '',
     notes: '',
   },
@@ -161,17 +170,17 @@ const ACTIVITY = {
     notes: '',
   },
   
- // Wreckage
-  55962: {
-    communication: '',
-    flightActivity: '',
+ // Ivan Hordiyanko
+  56220: {
+    communication: 'Discord',
+    flightActivity: 'Battlefront II PvP',
     otherActivity: '',
     notes: '',
   },
-
-  // AlexanderK9
-  56110: {
-    communication: '',
+  
+  // X
+  56282: {
+    communication: 'Discord',
     flightActivity: '',
     otherActivity: '',
     notes: '',
@@ -179,7 +188,7 @@ const ACTIVITY = {
   
   // Giada Aurelious
   56247: {
-    communication: '',
+    communication: 'Discord',
     flightActivity: '',
     otherActivity: '',
     notes: '',
@@ -187,8 +196,8 @@ const ACTIVITY = {
 
   // Exar Kit
   5243: {
-    communication: '',
-    flightActivity: '',
+    communication: 'Discord',
+    flightActivity: 'Star Conflict PvE',
     otherActivity: '',
     notes: '',
   },
@@ -225,7 +234,15 @@ export default function Report({ activityData }) {
 	  
         <center><h4><span style={{ color: "#1F51FF" }}>Squadron Commander's Speech</span></h4></center>
 		
-		<p>_____TODO_____</p>
+		<p>Greetings pilots! Imperial Storm 4 (IS4) rages on and remains anyone’s game at this point. One of the big TIE Corps competitions of the year, IS4 pitches the ISDII Hammer, Challenge and Warrior against one another in a pseudo table-top game of strategy where each ship will encounter battles against one another. Keep your eyes peeled on Discord for news announcements and strategy discussions. And as always, be prepared for battle, there’ll be plenty more to come! </p>
+		<p>Sin welcomes its newest pilot, SL X to its ranks this week. We warmly welcome you and look forward to flying with you soon X! </p>
+		<p>We’ve also seen some internal transfers/promotions over the last two weeks which sees us congratulating LCM Ivan Hordiyanko who has taken up the role of Flight 3 Leader! Congratulations in your new role, and we wish you every success in your new position!</p>
+		<p>MAJ Wreckage has moved over to a Flight Member slot in Flight 1. </p>
+		<p> And sadly, we have lost LCM AlexanderK9 to the abyss. We hope that you return to us soon. </p>
+		<p>Sin along with the rest of the ISDII Warrior squadrons has also been nominated to test out a new structure, and has expanded to 4 Flights. This means that we now have a new vacancy for a Flight Leader. If you’re interested in learning the ropes of command and being responsible for a flight of pilots then please submit your interest to me. </p>
+		<p>Finally, it’s with great pleasure that I can announce the return of Sinfantry Training! An internal Sin competition which sees Sin’s pilots grouping up over two training nights a week to enjoy some PvP and PvE gaming as a Squadron.</p>
+		<p>Find this and plenty more, in the news sections below. </p>
+
 
 
       </Intro>
@@ -234,13 +251,20 @@ export default function Report({ activityData }) {
 
                 <center><h3><span style={{ color: "#1F51FF" }}>Squadron News</span></h3></center>
         <ul>
-				<li>_____TODO_____</li><br></br>
+				<li>SL X joins us here a Sin Squadron as Sin 3-2! We warmly welcome you to the squad!</li><br></br>
+				<li>LCM Ivan Hordiyanko has been promoted to Flight Leader of Flight 3.</li><br></br>
+				<li>MAJ Wreckage has assumed the role of Flight Member over in Flight 1.</li><br></br>
+				<li>Sadly, we have lost LCM AlexanderK9 to the abyss whilst on a patrol. We hope that he can find his way back to us in the future.</li><br></br>
+				<li>Sin Squadron is trialling a new 4 Flight squadron structure which means we’ll be seeing even more new pilots shortly. This has also generated a new Flight Leader position. If anyone is interested in becoming a Flight Leader and getting a taste of command in the TIE Corps then please apply directly to me.</li><br></br>
+				<li>Sinfantry Training has returned! Every first and third Saturday of the month, Sin Squadron will assemble for PvP and CoOp matches in Star Wars Squadrons, Battlefront, and Star Conflict. See more at <a href="https://tc.emperorshammer.org/competitions.php?id=3384">  here</a>.</li><br></br>
         </ul>
 		
                 <center><h3><span style={{ color: "#1F51FF" }}>Fleet News</span></h3></center>
 
 		<ul>
-				<li>_____TODO_____</li><br></br>
+				<li>Imperial Storm 4 rages on, and all is up for grabs across all three Star Destroyers! Find the latest SIMS report <a href="https://tc.emperorshammer.org/showreport.php?id=4188">  here </a>.</li><br></br>
+				<li>Theta Squadron onboard the ISDII Warrior is still looking for a new Squadron Commander (CMDR). After a long-standing and successful career, GN Pete "Tex" Mitchell has decided he wants to trade his desk in for the cockpit again, this leaves Theta without a CMDR. So, the hunt is on! If you would like the opportunity to take over Theta, DM the WarCOM, VA Marenta, your interest and include any relevant EHTC experience, leadership examples (online or irl), and what you hope to do to keep Theta successful and active.</li><br></br>
+				<li>Field Test: Larger Squadrons<br></br><br></br>As the ISDII Warrior was on its way to reaching its hard cap of 48 pilots between 4 squadrons, VA Marenta and HA Plif discussed how we wanted to address that on the roster. Rather than pulling an experienced officer from a squadron to lead a newly-formed squadron and then doing the usual redirection of every recruit to the new squadron, we're trying out a different path. To let a talented leadership team have more pilots to work with and to ease the pressure the roster puts on us to open new squadrons, we've decided to test increasing the maximum number of pilots in a squadron to 16. This will be limited to the four squadrons on the ISDII Warrior for now but may expand to the other ships later on. <br></br><br></br>The way we chose to increase the max size of a squadron was to add a fourth flight to each of them. This creates an additional Flight Leader position and three additional Flight Member positions in each squadron. <br></br><br></br>The immediate concern is that this would cause balance issues in any competitions that have a squadron component like TIE Corps in Battle, Squadron (Re)Mobilization, and Raise the Flag. We're far enough into the TCiB season that this shouldn't cause a significant impact in the final standings, especially since it takes time to recruit pilots and get them flying. For the other competitions, we have an additional variable to consider when putting together the rules for this year's iterations. <br></br><br></br>Since this is a test, this new structure isn't yet permanent. We'll be keeping in touch with the CMDRs of the affected squadrons and getting their feedback as time passes. If we reach a point where it's clear that larger squadrons have some unintended drawbacks, we'll revert to the 12-pilot max and reassign pilots as needed. We'll also be working with the Commodores of the ISDII Hammer and ISDII Challenge to determine if an increase to the max size of the other squadrons is warranted.</li><br></br>
 
                 <li><b>TIE Corps in Battle Season 4 Assignments for April:</b> 
 					<br></br><br></br>
@@ -267,7 +291,6 @@ export default function Report({ activityData }) {
 
       <Closing>
 	  
-		<p>_____TODO_____</p>
 		<p>My door is always open to all of you. If you need any help, guidance or just direction for some activities then please don’t hesitate to contact me on Discord of by email. If you’re online and gaming, drop in to one of our voice channels for visibility. You never know you might end up flying with some fellow Sinners or other members of the Corps.</p>
 		<p>For Sin! </p>
 		<p>MAJ SkyShadow </p>

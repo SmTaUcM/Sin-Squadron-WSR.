@@ -42,5 +42,9 @@ export default {
     name: 'The Devil\'s Accusers',
     motto: '"Seeking whoever we may devour"',
     ship: 240,
+  }, {
+    name: 'TBA',
+    motto: 'TBA',
+    ship: 240,
   }],
 };
