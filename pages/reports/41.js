@@ -16,14 +16,14 @@ import Link from '../../components/link';
 import config from '../../config';
 import loadActivityData from '../../src/loadSquadronActivityData';
 
-const reportNumber = 40;
-const startDate = '2022-05-15';
-const endDate = '2022-06-25';
-const submissionDate = '2022-06-26';
+const reportNumber = 41;
+const startDate = '2022-06-26';
+const endDate = '2022-07-09';
+const submissionDate = '2022-07-10';
 
 const citations = [
 ];
-const citationsChange ='+0';
+const citationsChange ='_____TODO_____';
 
 // These don't seem to change anything. Use: citations.js 
 const orders = [
@@ -85,15 +85,15 @@ const ACTIVITY = {
   // SkyShadow
   6958: {
     communication: 'Discord',
-    flightActivity: 'Star Conflict PvE',
-    otherActivity: 'Sinfantry Training',
+    flightActivity: '',
+    otherActivity: '',
     notes: '',
   },
   
   // Kazraran
   56002: {
     communication: '',
-    flightActivity: 'XvT & TIE Single Player, Star Conflict PvE',
+    flightActivity: '',
     otherActivity: '',
     notes: '',
   },
@@ -108,7 +108,7 @@ const ACTIVITY = {
   
   // Robert Hogan
   55859: {
-    communication: 'Discord',
+    communication: '',
     flightActivity: '',
     otherActivity: '',
     notes: '',
@@ -116,7 +116,7 @@ const ACTIVITY = {
 
   // Kane Polybius
   56085: {
-    communication: 'Discord',
+    communication: '',
     flightActivity: '',
     otherActivity: '',
     notes: '',
@@ -140,7 +140,7 @@ const ACTIVITY = {
   
  // Ivan Hordiyanko
   56220: {
-    communication: 'Discord',
+    communication: '',
     flightActivity: '',
     otherActivity: '',
     notes: '',
@@ -148,7 +148,7 @@ const ACTIVITY = {
   
   // X
   56282: {
-    communication: 'Discord',
+    communication: '',
     flightActivity: '',
     otherActivity: '',
     notes: '',
@@ -164,34 +164,34 @@ const ACTIVITY = {
 
   // Exar Kit
   5243: {
-    communication: 'Discord',
+    communication: '',
     flightActivity: '',
-    otherActivity: 'Sinfantry Training',
-    notes: 'Thanks for the Sinfantry Training games!',
+    otherActivity: '',
+    notes: '',
   },
   
   // Ma'tikk Za'bezz
   56307: {
-    communication: 'Discord',
-    flightActivity: 'Squadrons PvP, Battlefront PvE',
+    communication: '',
+    flightActivity: '',
     otherActivity: '',
     notes: '',
   },
   
    // Hollow
   56313: {
-    communication: 'Discord',
-    flightActivity: 'Squadrons PvP, Battlefront PvE',
+    communication: '',
+    flightActivity: '',
     otherActivity: '',
-    notes: 'Welcome to Sin Squadron!',
+    notes: '',
   },
   
   // Valkrus
   56316: {
-    communication: 'Discord',
-    flightActivity: 'Squadrons PvP',
+    communication: '',
+    flightActivity: '',
     otherActivity: '',
-    notes: 'Welcome to Sin Squadron!',
+    notes: '',
   },
   
 };
@@ -227,12 +227,7 @@ export default function Report({ activityData }) {
 	  
         <center><h4><span style={{ color: "#1F51FF" }}>Squadron Commander's Speech</span></h4></center>
 		
-		<p>Greetings pilots! Firstly, a super late report from me I’m afraid. Mainly down to job interviews and training going on in real life. I can only apologise and will make a renewed attempt at getting these back out to you on a routine basis. </p>
-		<p>Squadron (Re)Mobilization 4 is well under way, and it’s great to see some of you chipping away at the tasks at hand! I thank you for your efforts. </p>
-		<p>Sin welcomes its newest pilots, LTs Hollow and Valkrus to its ranks this week. We warmly welcome you and look forward to flying with you soon!  </p>
-		<p>We are still looking for a Flight Leader for Flight 4. If you are interested in becoming a FL please get in touch. </p>
-		<p>I am also looking for a Squadron Executive Officer, so if becoming a CMDR in training interests you, then please get in touch. </p>
-		<p>Find this and plenty more, in the news sections below. </p>
+		<p>_____TODO_____</p>
 
       </Intro>
 
@@ -240,25 +235,12 @@ export default function Report({ activityData }) {
 
                 <center><h3><span style={{ color: "#1F51FF" }}>Squadron News</span></h3></center>
         <ul>
-				<li>LT Hollow joins us here a Sin Squadron as Sin 4-3! We warmly welcome you to the squad!</li><br></br>
-				<li>LT Valkrus joins us here a Sin Squadron as Sin 4-3! We warmly welcome you to the squad!</li><br></br>
-				<li>MAJ Wreckage has departed Sin Squadron to the Reserves. We thank him for his hard work and dedication that he has put into Sin Squadron.</li><br></br>
-				<li>May’s MSE medals have been made and awarded. Congratulations to all those who earned a medal for May’s activity.</li><br></br>
-				<li>Squadron (Re)Mobilization 4 is well under way. We have our work cut out for us. See more at <a href=" https://tc.emperorshammer.org/competitions.php?id=3368">  here</a>.</li><br></br>
+				<li>_____TODO_____</li><br></br>
         </ul>
 		
                 <center><h3><span style={{ color: "#1F51FF" }}>Fleet News</span></h3></center>
 		<ul>
-				<li>A quick and final reminder for the Imperial University data transition:
-
-					In preparation for the Imperial University (IU) migration that will occur in the near future, members are advised to take the following actions to ensure a successful migration of your record from the old site to the new.
-
-					1. Ensure that the email address on your emperorshammer.org account matches your tc.emperorshammer.org account.  If there is a discrepancy, update your address on the emperorshammer.org site.
-
-					2. Ensure that your name on emperorshammer.org exactly matches your tc.emperorshammer.org name (your character name as displayed on your member record).  If they do not match, please contact me for assistance.
-
-					If you have never taken IU courses or created an account on emperorshammer.org, there are no actions required.</li><br></br>
-				<li>Squadron (Re)Mobilization 4 is well under way. We have our work cut out for us. See more at <a href=" https://tc.emperorshammer.org/competitions.php?id=3368">  here</a>.</li><br></br>
+				<li>_____TODO_____</li><br></br>
 
         </ul>
 
