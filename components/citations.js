@@ -14,18 +14,19 @@ export default function Citations({ citations, citationsChange, children }) {
       <ul>
         {citations.map((c) => <li key={c}>{c}</li>) }
       </ul>
-      <center><h4><span style={{ color: "#1F51FF" }}>Squadron Orders</span></h4></center>
+      <center><h3><span style={{ color: "#1F51FF" }}>Squadron Orders</span></h3></center>
       <p>The following are citations that we are very close to obtaining. Please make these your priority when completing single player battles.</p>
       <ul>
         <li>TIE-TC 3</li>
         <li>TIE-TC 6</li>
-        <li>TIE-TC 25</li>
-		<li>XVT-TC 1</li>
-        <li>XVT-TC 14</li>
-		<li>XVT-TC 70</li>
-		<li>XWA-TC 1</li>
-		<li>XWA-TC 2</li>
-		<li>XWA-TC 3</li>
+        <li>TIE-TC 26</li>
+		<li>XVT-TC 4</li>
+        <li>XVT-TC 7</li>
+		<li>XVT-TC 8</li>
+		<li>XVT-TC 12</li>
+		<li>XVT-TC 13</li>
+		<li>XVT-TC 24</li>
+		<li>XVT-TC 25</li>
       </ul>
       { children }
 

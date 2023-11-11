@@ -16,7 +16,7 @@ export const rankImages = Object.keys(ranks).reduce((acc, rank) => ({
   ...acc,
   [rank]: () => (
     <img
-      src={`https://tempest-blown-with-the-wind.vercel.app/rankBadges/${ranks[rank]}.png`}
+      src={`https://tc.emperorshammer.org/images/ranks/${ranks[rank]}.png`}
       alt={`Badge icon for ${rank}`}
       style={styles.rankBadge}
     />

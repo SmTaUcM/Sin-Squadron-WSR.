@@ -15,7 +15,7 @@ const h2 = {
 
 const h3 = {
   textAlign: 'center',
-  fontSize: 28,
+  fontSize: 24,
   marginTop: 0,
 };
 
@@ -44,7 +44,7 @@ const body = {
   color: white,
   backgroundColor: black,
   fontFamily: 'Monospace',
-  fontSize: '18px',
+  fontSize: '16px',
 };
 
 const p = {

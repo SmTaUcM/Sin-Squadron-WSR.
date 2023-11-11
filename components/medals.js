@@ -30,13 +30,14 @@ export const medals = {
   MOH: 'moh',
   TUA: 'tua',
   MUA: 'mua',
+  ORA: 'ora'
 };
 
 export const medalImages = Object.values(medals).reduce((acc, medal) => ({
   ...acc,
   [medal]: () => (
     <img
-      src={`https://tempest-blown-with-the-wind.vercel.app/medals/${medal}.jpg`}
+      src={`https://tc.emperorshammer.org/images/report-assets/medals/${medal}.png`}
       alt={`Icon for ${medal}`}
       style={styles.medal}
     />

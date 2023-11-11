@@ -29,7 +29,7 @@ export default function PilotActivity({
         rel="noreferrer"
         style={{ position: 'relative', bottom: '7px' }}
       >
-        <strong style={styles.h4}>
+        <strong style={styles.h3}>
           {`${ranks[rank].toUpperCase()} ${name}`}
         </strong>
       </Link>

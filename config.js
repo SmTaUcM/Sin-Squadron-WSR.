@@ -16,7 +16,7 @@ export default {
   cmdr: {
     intro: 'From The Desk of SkyShadow',
     name: 'SkyShadow',
-    title: 'MAJ SkyShadow',
+    title: 'LC SkyShadow',
     pin: 6958,
     email: 'SmTaUcM@GMail.com',
   },
@@ -27,7 +27,7 @@ export default {
   },
   com: {
     name: 'Marenta',
-    title: 'VA Marenta',
+    title: 'AD Marenta',
     pin: 708,
   },
   flights: [{
@@ -41,10 +41,6 @@ export default {
   }, {
     name: 'The Devil\'s Accusers',
     motto: '"Seeking whoever we may devour"',
-    ship: 240,
-  }, {
-    name: 'TBA',
-    motto: 'TBA',
     ship: 240,
   }],
 };
